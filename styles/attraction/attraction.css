@@ -14,7 +14,7 @@
 
 .attraction-container .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 2px 10px 2px var(--text-color);
+  box-shadow: 0 2px 10px 2px var(--main-color);
 }
 
 .attraction-container .card .image {

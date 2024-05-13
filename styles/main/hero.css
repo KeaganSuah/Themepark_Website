@@ -20,7 +20,8 @@
 .hero-content h1 {
   font-size: 10rem;
   color: var(--bg-color);
-  font-weight: 700;
+  font-weight: 100;
+  font-family: "Poetsen One", sans-serif;
 }
 
 .hero-content a {

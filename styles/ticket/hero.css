@@ -36,7 +36,8 @@ section {
 .hero-content h1 {
   font-size: 4rem;
   color: var(--text-color);
-  font-weight: 600;
+  font-weight: 100;
+  font-family: "Poetsen One", sans-serif;
 }
 
 .hero-content p {

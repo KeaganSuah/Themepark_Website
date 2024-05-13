@@ -21,31 +21,28 @@
 
 .logo {
   font-size: 1.5rem;
-  padding: 0.2rem 1rem;
+  padding-top: 1.3rem;
   color: var(--text-color);
   font-weight: 600;
   text-decoration: none;
   transition: 0.5s ease;
+  font-family: "Poetsen One", sans-serif;
 }
 
-.logo span {
-  color: var(--main-color);
-  font-weight: 700;
-}
-
-.logo:focus,
-.logo:hover {
-  color: var(--main-color);
+.logo img{
+  width: 150px;
+  height: 150px;
 }
 
 .navbar a {
   color: var(--text-color);
-  font-weight: 600;
   margin-left: 2rem;
   padding: 0.2rem 1rem;
   font-size: 1.2rem;
   text-decoration: none;
   transition: 0.25s ease;
+  font-size: 100;
+  font-family: "Poetsen One", sans-serif;
 }
 
 .navbar a:hover,
