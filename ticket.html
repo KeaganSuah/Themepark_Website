@@ -26,13 +26,15 @@
   </head>
 
   <body>
-    <!-- Start Header & Nav, written by Keagan -->
+    <!-- Start Header & Nav -->
     <header class="header">
       <!-- Logo -->
-      <a href="/" class="logo">Team<span>79</span></a>
+      <a href="/" class="logo">
+        <img src="static/logo.png" alt="" />
+      </a>
 
       <!-- Menus icon for small screen devices -->
-      <div class="bx bx-menu" id="menu-icon"></div>
+      <div class="bx bx-menu" id="menu-bar"></div>
 
       <!-- Nav Links -->
       <nav class="navbar">
@@ -44,23 +46,29 @@
     <!-- End Header & Nav -->
 
     <main>
+      <!-- Hero Section -->
       <section id="hero">
+        <!-- Hero contents, background image in CSS -->
         <div class="hero-content">
           <h1>Welcome To a Land Of Magic</h1>
           <p>Get ready for your visit to the Disneyland Resort</p>
         </div>
       </section>
+      <!-- End Hero Section -->
+
       <section class="tickets"></section>
       <section class="date"></section>
     </main>
 
-    <!-- Start Footer, written by Keagan -->
+    <!-- Start Footer -->
     <footer>
       <div class="footer-container">
         <!-- Top Portion Of Footer -->
         <div class="footer-top">
           <!-- Top-Left Portion of Footer to hold Logo -->
-          <a href="/" class="logo">Team<span>79</span></a>
+          <a href="/" class="logo-bottom"
+            ><img src="static/logo.png" alt=""
+          /></a>
 
           <!-- Top-Right Side to hold other links -->
           <div class="footer-top-section">
@@ -70,8 +78,8 @@
               <!-- Columns Links -->
               <nav>
                 <a href="#">Home</a>
-                <a href="#">page 2</a>
-                <a href="#">page 3</a>
+                <a href="#">Attractions</a>
+                <a href="#">Ticket</a>
               </nav>
             </div>
             <div class="footer-top-links">
@@ -80,7 +88,7 @@
               <!-- Columns Links -->
               <nav>
                 <a role="button">Summer</a>
-                <a role="button">page 2</a>
+                <a role="button">Halloween</a>
               </nav>
             </div>
             <div class="footer-top-links">
@@ -121,6 +129,5 @@
 
     <!-- Global Scripts -->
     <script src="/scripts/global.js"></script>
-    
   </body>
 </html>

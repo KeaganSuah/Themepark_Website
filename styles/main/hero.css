@@ -1,8 +1,9 @@
-/************** Hero Section, written by Keagan **************/
-
+/************** Hero Section **************/
+/* Overall design and background of hero section */
 #hero {
   width: 100%;
   height: 100vh;
+  background-color: transparent;
   background-image: linear-gradient(
     rgba(57, 14, 14, 0.3),
     rgba(54, 16, 16, 0.3)
@@ -12,6 +13,8 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Contents in the hero section */
 
 .hero-content {
   text-align: center;
@@ -24,10 +27,18 @@
   font-family: "Poetsen One", sans-serif;
 }
 
+.hero-content h1 span {
+  color: var(--main-color);
+  font-weight: 100;
+  font-family: "Poetsen One", sans-serif;
+}
+
 .hero-content a {
   text-decoration: none;
   display: inline-block;
-  color: var(--bg-color);
+  box-shadow: 0 0 10px 2px var(--bg-color);
+  background-color: var(--bg-color);
+  color: var(--main-color);
   font-weight: 600;
   font-size: 1.5rem;
   border: 2px solid var(--bg-color);
@@ -37,9 +48,10 @@
   transition: 0.5s ease;
 }
 
-.hero-content a:hover {
-  background-color: var(--bg-color);
-  color: var(--main-color);
+.hero-content a:hover,
+.hero-content a:focus {
+  color: var(--bg-color);
+  background: transparent;
 }
 
 .hero-video {
@@ -49,7 +61,7 @@
   z-index: -1;
 }
 
-/* Responsive to smaller devices */
+/************** Responsiveness **************/
 
 @media (min-aspect-ratio: 16/9) {
   .hero-video {

@@ -1,114 +1,117 @@
-/************** Events Section, written by Keagan **************/
+/************** Events Section **************/
 
+/* Set the container for Events section */
 .container-event {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border-radius: 1rem;
-    gap: .4rem;
-    box-shadow: 0 0 5px 2px var(--text-color-mid);
-  }
-  
-  .container-event .image-big {
-    grid-column: span 3;
-    width: 100%;
-    height: 60vh;
-    overflow: hidden;
-    border-radius: 1rem 1rem 0 0;
-  }
-  
-  .container-event .image-big img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    box-sizing: border-box;
-    transition: 1s ease;
-  }
-  
-  .container-event .image-big img:hover {
-    transform: scale(1.1);
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 1rem;
+  gap: 0.4rem;
+  box-shadow: 0 0 5px 2px var(--text-color-mid);
+}
 
-  .container-event .image-big .content {
-    color: var(--bg-color);
-    position: absolute;
-    z-index: 1;
-    padding:2rem 1.5rem;
-  }
+/* Larger image to represent the main event */
+.container-event .image-big {
+  grid-column: span 3;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  border-radius: 1rem 1rem 0 0;
+}
 
-  .container-event .image-big .content h1{
-    font-size: 1.7rem;
-    font-weight: 600;
-  }
-  
-  .container-event .image-big .content h2{
-    font-size: 1.3rem;
-    font-weight: 400;
-  }
+.container-event .image-big img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  box-sizing: border-box;
+  transition: 1s ease;
+}
 
-  /* Small Pictures */
+.container-event .image-big img:hover {
+  transform: scale(1.1);
+}
 
-  .container-event .image-small {
-    width: 100%;
-    height: 60vh;
-    overflow: hidden;
-  }
-  
-  .container-event .image-small .content {
-    color: var(--bg-color);
-    position: absolute;
-    z-index: 1;
-    padding:2rem 1.5rem;
-  }
+.container-event .image-big .content {
+  color: var(--bg-color);
+  position: absolute;
+  z-index: 1;
+  padding: 2rem 1.5rem;
+}
 
-  .container-event .image-small .content h1{
-    font-size: 1.35rem;
-    font-weight: 600;
-  }
-  
-  .container-event .image-small .content h2{
-    font-size: 1.05rem;
-    font-weight: 400;
-  }
-  
-  .container-event .image-small img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    box-sizing: border-box;
-    transition: 0.75s ease;
-  }
-  
-  .container-event .image-small img:hover {
-    transform: scale(1.1);
-  }
+.container-event .image-big .content h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
 
-  .container-event .image-small:nth-child(2){
-    border-bottom-left-radius: 1rem;
-  }
+.container-event .image-big .content h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
 
-  .container-event .image-small:nth-child(4){
-    border-bottom-right-radius: 1rem;
-  }
+/* Smaller image to represent the sub event */
+.container-event .image-small {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
 
-  /* Responsive to smaller devices */
+.container-event .image-small .content {
+  color: var(--bg-color);
+  position: absolute;
+  z-index: 1;
+  padding: 2rem 1.5rem;
+}
 
+.container-event .image-small .content h1 {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.container-event .image-small .content h2 {
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+.container-event .image-small img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  box-sizing: border-box;
+  transition: 0.75s ease;
+}
+
+.container-event .image-small img:hover {
+  transform: scale(1.1);
+}
+
+/* round the corners of the image in the container */
+.container-event .image-small:nth-child(2) {
+  border-bottom-left-radius: 1rem;
+}
+
+.container-event .image-small:nth-child(4) {
+  border-bottom-right-radius: 1rem;
+}
+
+/************** Responsiveness **************/
+
+/* Change the number of image presented in the row, then change the rounder border */
 @media (max-width: 928px) {
   .container-event {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .container-event .image-big {
     grid-column: span 1;
-    border-radius: 1rem 0 0 0 ;
+    border-radius: 1rem 0 0 0;
   }
 
-  .container-event .image-small:nth-child(2){
+  .container-event .image-small:nth-child(2) {
     border-radius: 0 1rem 0 0;
   }
 
-  .container-event .image-small:nth-child(3){
+  .container-event .image-small:nth-child(3) {
     border-radius: 0 0 0 1rem;
   }
 }
@@ -118,20 +121,20 @@
     display: flex;
     flex-direction: column;
   }
-  
+
   .container-event .image-big {
     border-radius: 1rem 1rem 0 0;
   }
 
-  .container-event .image-small:nth-child(2){
+  .container-event .image-small:nth-child(2) {
     border-radius: 0;
   }
 
-  .container-event .image-small:nth-child(3){
+  .container-event .image-small:nth-child(3) {
     border-radius: 0;
   }
 
-  .container-event .image-small:last-child{
-    border-radius:0 0 1rem 1rem;
+  .container-event .image-small:last-child {
+    border-radius: 0 0 1rem 1rem;
   }
 }

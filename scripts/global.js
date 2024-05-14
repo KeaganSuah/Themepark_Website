@@ -1,6 +1,6 @@
 /************** Navigation bar **************/
-// toggle Icon navbar
-let menuIcon = document.querySelector("#menu-icon");
+// When device width smaller than 768, menu icon will pop allowing to toggle to show nav links
+let menuIcon = document.querySelector("#menu-bar");
 let navbar = document.querySelector(".navbar");
 
 menuIcon.onclick = () => {
@@ -8,7 +8,7 @@ menuIcon.onclick = () => {
   navbar.classList.toggle("active");
 };
 
-// scroll sections
+// to make navbar sticker when scroll down more than 100 pixels
 
 window.onscroll = () => {
   let header = document.querySelector("header");
@@ -19,5 +19,3 @@ window.onscroll = () => {
   menuIcon.classList.remove("bx-x");
   navbar.classList.remove("active");
 };
-
-

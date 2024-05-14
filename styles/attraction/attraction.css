@@ -1,3 +1,6 @@
+/************** Attraction Section **************/
+
+/* Set the container for attraction section */
 .attraction-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -14,7 +17,7 @@
 
 .attraction-container .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 2px 10px 2px var(--main-color);
+  box-shadow: 0 2px 10px 2px var(--text-color-mid);
 }
 
 .attraction-container .card .image {
@@ -33,23 +36,24 @@
   border-radius: 0.9rem 0.9rem 0 0;
 }
 
+/* Content section in single attraction card */
+
 .attraction-container .card .content {
-  padding: 1rem;
+  padding: 1rem 0.9rem 4.5rem 0.9rem;
   text-align: center;
 }
 
 .attraction-container .card .content h1 {
   font-size: 1.2rem;
-  margin: 0.5rem 0;
+  padding-bottom: 0.5rem;
 }
 
 .attraction-container .card .content p {
   font-size: 1.1rem;
   font-weight: 500;
-  margin-bottom: 1.1rem;
 }
 
-/* Different Media Device */
+/************** Responsiveness **************/
 
 @media (max-width: 1024px) {
   .attraction-container {

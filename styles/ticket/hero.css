@@ -1,26 +1,11 @@
+/************** Hero Section **************/
+/* Set the section to have full height of screen and background picture focus at the bottom */
 section {
-  padding: 5rem 9% 2rem;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  min-height: auto;
-  padding-bottom: 5rem;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-position: center bottom;
-}
-
-.tickets {
-  background-image: url("/static/main/picture3.jpg");
-}
-
-.date {
-  background-image: url("/static/main/picture4.jpg");
-}
-
-.hero-content {
-  text-align: center;
 }
 
 #hero {
@@ -31,6 +16,10 @@ section {
   align-items: center;
   justify-content: center;
   background-image: url("/static/main/picture2.jpg");
+}
+
+.hero-content {
+  text-align: center;
 }
 
 .hero-content h1 {
@@ -46,6 +35,17 @@ section {
   color: var(--text-color);
   font-weight: 400;
 }
+
+/* Change the background picture to different mode for small parallax effect */
+.tickets {
+  background-image: url("/static/main/picture3.jpg");
+}
+
+.date {
+  background-image: url("/static/main/picture4.jpg");
+}
+
+/************** Responsiveness **************/
 
 @media (max-width: 1024px) {
   section {

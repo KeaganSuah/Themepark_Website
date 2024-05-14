@@ -1,5 +1,6 @@
-/************** Footer Section, written by Keagan **************/
+/************** Footer Section **************/
 
+/* Overall footer padding and creating a line at the top */
 footer {
   padding: 5rem 9% 2rem;
 }
@@ -9,10 +10,21 @@ footer {
   padding: 4rem 0 6rem 0;
 }
 
+/* Start of the footer design at the start, consist of logo and bottom links */
+
 .footer-top {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.logo-bottom {
+  top: 0;
+}
+
+.logo-bottom img {
+  width: 200px;
+  height: 200px;
 }
 
 .footer-top-section,
@@ -56,6 +68,8 @@ footer {
   color: var(--text-color);
 }
 
+/* Start of the footer design at the bottom, consist of social media links and other policies */
+
 .footer-bottom {
   margin-top: 4rem;
   display: flex;
@@ -85,7 +99,8 @@ footer {
   transition: 0.5s ease;
 }
 
-.social-media-links a:hover {
+.social-media-links a:hover,
+.social-media-links a:focus {
   color: var(--bg-color);
   background-color: var(--text-color);
 }
@@ -97,7 +112,8 @@ footer {
   transition: 0.5s ease;
 }
 
-.footer-bottom-section a:hover {
+.footer-bottom-section a:hover,
+.footer-bottom-section a:focus {
   color: var(--text-color);
 }
 
@@ -106,6 +122,8 @@ footer {
   font-size: 0.8rem;
   font-weight: 400;
 }
+
+/************** Responsiveness **************/
 
 /* Small Tablet Device */
 @media (max-width: 768px) {
@@ -117,7 +135,7 @@ footer {
   }
 }
 
-/* Big Smart Phone Device */
+/* Big Phone Device */
 @media (max-width: 600px) {
   .footer-bottom-section {
     align-items: center;
@@ -133,6 +151,7 @@ footer {
   }
 }
 
+/* Small Phone Device */
 @media (max-width: 500px) {
   .footer-top-section {
     align-items: center;
