@@ -23,6 +23,7 @@
 
     <!-- Page Style -->
     <link rel="stylesheet" href="/styles/ticket/hero.css" />
+    <link rel="stylesheet" href="/styles/ticket/booking.css" />
   </head>
 
   <body>
@@ -56,8 +57,55 @@
       </section>
       <!-- End Hero Section -->
 
-      <section class="tickets"></section>
-      <section class="date"></section>
+      <section class="ticket"></section>
+
+      <!-- Booking Section -->
+      <section class="booking">
+        <div class="booking-container">
+          <!-- Image on left side -->
+          <div class="image">
+            <img src="/static/main/picture1.jpg" alt="">
+          </div>
+          <!-- Booking Form on right -->
+          <div class="booking-form">
+            <form action="#">
+              <h1>Booking Online</h1>
+              <div class="form">
+                <p>Your Name</p>
+                <input type="text" placeholder="Enter Name Here" required>
+              </div>
+              <div class="form">
+                <p>Your Email</p>
+                <input type="email" placeholder="Enter Email Here" required>
+              </div>
+              <div class="form">
+                <p>Ticket Date</p>
+                <input type="date" required>
+              </div>
+              <div class="form">
+                <p>Ticket Time</p>
+                <input type="time" required>
+              </div>
+              <div class="form">
+                <p>Ticket Type</p>
+                <select name="select" required>
+                  <option value="standard">Standard</option>
+                  <option value="express">Express</option>
+                  <option value="prenium">Prenium</option>
+                </select>
+              </div>
+              <div class="form">
+                <p>Number of Tickets</p>
+                <input type="number" placeholder="Enter Number" required>
+              </div>
+
+              <button class="submit-button">Submit</button>
+
+            </form>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <!-- Start Footer -->

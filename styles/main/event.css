@@ -16,9 +16,10 @@
   height: 60vh;
   overflow: hidden;
   border-radius: 1rem 1rem 0 0;
+  cursor: pointer;
 }
 
-.container-event .image-big img {
+.container-event .image-big a img {
   width: 100%;
   height: 100%;
   display: block;
@@ -27,23 +28,23 @@
   transition: 1s ease;
 }
 
-.container-event .image-big img:hover {
+.container-event .image-big a img:hover {
   transform: scale(1.1);
 }
 
-.container-event .image-big .content {
+.container-event .image-big a .content {
   color: var(--bg-color);
   position: absolute;
   z-index: 1;
   padding: 2rem 1.5rem;
 }
 
-.container-event .image-big .content h1 {
+.container-event .image-big a .content h1 {
   font-size: 1.7rem;
   font-weight: 600;
 }
 
-.container-event .image-big .content h2 {
+.container-event .image-big a .content h2 {
   font-size: 1.3rem;
   font-weight: 400;
 }
@@ -53,26 +54,10 @@
   width: 100%;
   height: 60vh;
   overflow: hidden;
+  cursor: pointer;
 }
 
-.container-event .image-small .content {
-  color: var(--bg-color);
-  position: absolute;
-  z-index: 1;
-  padding: 2rem 1.5rem;
-}
-
-.container-event .image-small .content h1 {
-  font-size: 1.35rem;
-  font-weight: 600;
-}
-
-.container-event .image-small .content h2 {
-  font-size: 1.05rem;
-  font-weight: 400;
-}
-
-.container-event .image-small img {
+.container-event .image-small a img {
   width: 100%;
   height: 100%;
   display: block;
@@ -81,8 +66,25 @@
   transition: 0.75s ease;
 }
 
-.container-event .image-small img:hover {
+.container-event .image-small a img:hover {
   transform: scale(1.1);
+}
+
+.container-event .image-small a .content {
+  color: var(--bg-color);
+  position: absolute;
+  z-index: 1;
+  padding: 2rem 1.5rem;
+}
+
+.container-event .image-small a .content h1 {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.container-event .image-small a .content h2 {
+  font-size: 1.05rem;
+  font-weight: 400;
 }
 
 /* round the corners of the image in the container */

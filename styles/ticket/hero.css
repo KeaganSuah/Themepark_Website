@@ -2,6 +2,7 @@
 /* Set the section to have full height of screen and background picture focus at the bottom */
 section {
   height: 100vh;
+  padding: 3.5rem 13% 5rem;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -37,12 +38,8 @@ section {
 }
 
 /* Change the background picture to different mode for small parallax effect */
-.tickets {
+.ticket {
   background-image: url("/static/main/picture3.jpg");
-}
-
-.date {
-  background-image: url("/static/main/picture4.jpg");
 }
 
 /************** Responsiveness **************/
@@ -50,6 +47,8 @@ section {
 @media (max-width: 1024px) {
   section {
     background-position: left bottom;
+      padding: 3.5rem 5% 5rem;
+     
   }
   .hero-content h1 {
     font-size: 3rem;
