@@ -16,23 +16,26 @@
       rel="stylesheet"
     />
 
+    <!-- Web Icon -->
+    <link rel="icon" sizes="512x512" href="static/logo.png" />
+
     <!-- Global Style -->
     <link rel="stylesheet" href="/styles/global/global.css" />
     <link rel="stylesheet" href="/styles/global/header.css" />
     <link rel="stylesheet" href="/styles/global/footer.css" />
 
     <!-- Page Style -->
-    <link rel="stylesheet" href="/styles/main/hero.css" />
-    <link rel="stylesheet" href="/styles/main/banner.css" />
-    <link rel="stylesheet" href="/styles/main/event.css" />
-  </head>
+    <link rel="stylesheet" href="/styles/index/hero.css" />
+    <link rel="stylesheet" href="/styles/index/promotion.css" />
+    <link rel="stylesheet" href="/styles/index/event.css" />
+  </head> 
 
   <body>
     <!-- Start Header & Nav -->
     <header class="header">
       <!-- Logo -->
       <a href="/" class="logo">
-        <img src="static/logo.png" alt="" />
+        <img src="static/logo.png" alt="test test test" />
       </a>
 
       <!-- Menus icon for small screen devices -->
@@ -40,9 +43,11 @@
 
       <!-- Nav Links -->
       <nav class="navbar">
-        <a href="/index.html" class="active">Home</a>
-        <a href="/attraction.html">Attractions</a>
-        <a href="/ticket.html">Ticket</a>
+        <ul>
+          <li><a href="/index.html" class="active">Home</a></li>
+          <li><a href="/attraction.html">Attractions</a></li>
+          <li><a href="/ticket.html">Ticket</a></li>
+        </ul>
       </nav>
     </header>
     <!-- Content overlapping background video -->
@@ -52,7 +57,7 @@
       <section id="hero">
         <!-- background Video -->
         <video autoplay loop muted plays-inline class="hero-video">
-          <source src="static/main/video.mp4" type="video/mp4" />
+          <source src="static/index/video.mp4" type="video/mp4" />
         </video>
 
         <!-- Content header and link, overlapping background video -->
@@ -64,18 +69,18 @@
       <!-- End Hero section -->
 
       <!-- Ticket Price and Promotion -->
-      <section class="promotion" id="promotion">
-        <h1 class="title">Tickets & Promotion</h1>
+      <article class="promotion" id="promotion">
+        <h2>Tickets & Promotion</h2>
         <div class="container">
           <!-- Image Card -->
-          <div class="image">
-            <img src="static/main/picture1.jpg" alt="" />
-          </div>
+          <figure class="image">
+            <img src="static/index/picture1.jpg" alt="test test test" />
+          </figure>
 
           <!-- Content card -->
           <div class="content">
             <!-- Title -->
-            <h1>Ticket & Reservations</h1>
+            <h3>Ticket & Reservations</h3>
             <!-- Description -->
             <p>
               Each member in your party is required to have both a valid ticket
@@ -91,7 +96,7 @@
           <!-- Content card -->
           <div class="content">
             <!-- Title -->
-            <h1>Ticket & Reservations</h1>
+            <h3>Ticket & Reservations</h3>
             <!-- Description -->
             <p>
               Each member in your party is required to have both a valid ticket
@@ -105,26 +110,26 @@
           </div>
 
           <!-- Image Card -->
-          <div class="image">
-            <img src="static/main/picture1.jpg" alt="" />
-          </div>
+          <figure class="image">
+            <img src="static/index/picture1.jpg" alt="test test test" />
+          </figure>
         </div>
-      </section>
+      </article>
       <!-- End ticket price and promotion -->
 
       <!-- Reservation and planning guide -->
-      <section class="planning">
-        <h1 class="title">Reservation & Planning guide</h1>
+      <article class="planning">
+        <h2>Reservation & Planning guide</h2>
         <div class="container">
           <!-- Image Card -->
-          <div class="image">
-            <img src="static/main/picture1.jpg" alt="" />
-          </div>
+          <figure class="image">
+            <img src="static/index/picture1.jpg" alt="test test test" />
+          </figure>
 
           <!-- Content card -->
           <div class="content">
             <!-- Title -->
-            <h1>Ticket & Reservations</h1>
+            <h3>Ticket & Reservations</h3>
             <!-- Description -->
             <p>
               Each member in your party is required to have both a valid ticket
@@ -140,7 +145,7 @@
           <!-- Content card -->
           <div class="content">
             <!-- Title -->
-            <h1>Ticket & Reservations</h1>
+            <h3>Ticket & Reservations</h3>
             <!-- Description -->
             <p>
               Each member in your party is required to have both a valid ticket
@@ -154,63 +159,62 @@
           </div>
 
           <!-- Image Card -->
-          <div class="image">
-            <img src="static/main/picture1.jpg" alt="" />
-          </div>
+          <figure class="image">
+            <img src="static/index/picture1.jpg" alt="test test test" />
+          </figure>
         </div>
-      </section>
+      </article>
       <!-- End Reservation and planning guide -->
 
       <!-- Events Section -->
-      <section class="events">
-        <h1 class="title">Events</h1>
+      <article class="events">
+        <h2>Events</h2>
         <div class="container-event">
-          
           <!-- Big Image Card -->
-          <div class="image-big">
+          <figure class="image-big">
             <a href="/attraction.html">
-            <div class="content">
-              <h1>Pixar Fest - Now through August 4</h1>
-              <h2>at Disney California Adventure</h2>
-            </div>
-            <img src="static/main/picture1.jpg" alt="" />
-          </a>
-          </div>
+              <figcaption class="content">
+                <h3>Pixar Fest - Now through August 4</h3>
+                <h4>at Disney California Adventure</h4>
+              </figcaption>
+              <img src="static/index/picture1.jpg" alt="test test test" />
+            </a>
+          </figure>
 
           <!-- Small Image Card -->
-          <div class="image-small">
+          <figure class="image-small">
             <a href="/attraction.html">
-            <div class="content">
-              <h1>Pixar Fest - Now through August 4</h1>
-              <h2>at Disney California Adventure</h2>
-            </div>
-            <img src="static/main/picture1.jpg" alt="" />
-          </a>
-          </div>
+              <figcaption class="content">
+                <h3>Pixar Fest - Now through August 4</h3>
+                <h4>at Disney California Adventure</h4>
+              </figcaption>
+              <img src="static/index/picture1.jpg" alt="test test test" />
+            </a>
+          </figure>
 
           <!-- Small Image Card -->
-          <div class="image-small">
+          <figure class="image-small">
             <a href="/attraction.html">
-            <div class="content">
-              <h1>Pixar Fest - Now through August 4</h1>
-              <h2>at Disney California Adventure</h2>
-            </div>
-            <img src="static/main/picture1.jpg" alt="" />
-          </a>
-          </div>
+              <figcaption class="content">
+                <h3>Pixar Fest - Now through August 4</h3>
+                <h4>at Disney California Adventure</h4>
+              </figcaption>
+              <img src="static/index/picture1.jpg" alt="test test test" />
+            </a>
+          </figure>
 
           <!-- Small Image Card -->
-          <div class="image-small">
+          <figure class="image-small">
             <a href="/attraction.html">
-            <div class="content">
-              <h1>Pixar Fest - Now through August 4</h1>
-              <h2>at Disney California Adventure</h2>
-            </div>
-            <img src="static/main/picture1.jpg" alt="" />
-          </a>
-          </div>
+              <figcaption class="content">
+                <h3>Pixar Fest - Now through August 4</h3>
+                <h4>at Disney California Adventure</h4>
+              </figcaption>
+              <img src="static/index/picture1.jpg" alt="test test test" />
+            </a>
+          </figure>
         </div>
-      </section>
+      </article>
       <!-- End Events section -->
     </main>
 
@@ -221,7 +225,7 @@
         <div class="footer-top">
           <!-- Top-Left Portion of Footer to hold Logo -->
           <a href="/" class="logo-bottom"
-            ><img src="static/logo.png" alt=""
+            ><img src="static/logo.png" alt="test test test"
           /></a>
 
           <!-- Top-Right Side to hold other links -->
@@ -231,9 +235,11 @@
               <h6>Quicklinks</h6>
               <!-- Columns Links -->
               <nav>
-                <a href="#">Home</a>
-                <a href="#">Attractions</a>
-                <a href="#">Ticket</a>
+                <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/attraction.html">Attractions</a></li>
+                <li><a href="/ticket.html">Ticket</a></li>
+              </ul>
               </nav>
             </div>
             <div class="footer-top-links">
@@ -241,8 +247,10 @@
               <h6>Events</h6>
               <!-- Columns Links -->
               <nav>
-                <a role="button">Summer</a>
-                <a role="button">Halloween</a>
+                <ul>
+                <li><a role="button">Summer</a></li>
+                <li><a role="button">Halloween</a></li>
+              </ul>
               </nav>
             </div>
             <div class="footer-top-links">
@@ -250,10 +258,12 @@
               <h6>About Us</h6>
               <!-- Columns Links -->
               <nav>
-                <a role="button">Our Mission</a>
-                <a role="button">Team</a>
-                <a role="button">FAQ</a>
-                <a role="button">Report</a>
+                <ul>
+                <li><a role="button">Our Mission</a></li>
+                <li><a role="button">Team</a></li>
+                <li></li><a role="button">FAQ</a></li>
+                <li></li><a role="button">Report</a></li>
+              </ul>
               </nav>
             </div>
           </div>
@@ -262,20 +272,20 @@
         <!-- Bottom Portion Of Footer -->
         <div class="footer-bottom">
           <!-- Bottom-Left portion to hold Social Media Icons -->
-          <div class="social-media-links">
-            <a role="button"><i class="bx bxl-linkedin"></i></a>
-            <a role="button"><i class="bx bxl-instagram"></i></a>
-            <a role="button"><i class="bx bxl-facebook"></i></a>
-            <a role="button"><i class="bx bxl-twitter"></i></a>
-            <a role="button"><i class="bx bxl-tiktok"></i></a>
-          </div>
+          <ul class="social-media-links">
+            <li><a role="button"><i class="bx bxl-linkedin"></i></a></li>
+            <li><a role="button"><i class="bx bxl-instagram"></i></a></li>
+            <li><a role="button"><i class="bx bxl-facebook"></i></a></li>
+            <li><a role="button"><i class="bx bxl-twitter"></i></a></li>
+            <li><a role="button"><i class="bx bxl-tiktok"></i></a></li>
+          </ul>
 
           <!-- Bottom-Right to hold policy, terms & conditon and copyright -->
-          <div class="footer-bottom-section">
-            <a role="button">Privacy Policy</a>
-            <a role="button">Terms & Conditions</a>
-            <h6>Copyright © 2024, TEAM 79</h6>
-          </div>
+            <ul class="footer-bottom-section">
+            <li><a role="button">Privacy Policy</a></li>
+            <li><a role="button">Terms & Conditions</a></li>
+            <li><h6>Copyright © 2024, TEAM 79</h6></li>
+          </ul>
         </div>
       </div>
     </footer>

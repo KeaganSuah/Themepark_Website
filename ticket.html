@@ -16,6 +16,9 @@
       rel="stylesheet"
     />
 
+    <!-- Web Icon -->
+    <link rel="icon" sizes="512x512" href="static/logo.png" />
+
     <!-- Global Style -->
     <link rel="stylesheet" href="/styles/global/global.css" />
     <link rel="stylesheet" href="/styles/global/header.css" />
@@ -31,7 +34,7 @@
     <header class="header">
       <!-- Logo -->
       <a href="/" class="logo">
-        <img src="static/logo.png" alt="" />
+        <img src="static/logo.png" alt="test test test" />
       </a>
 
       <!-- Menus icon for small screen devices -->
@@ -39,9 +42,11 @@
 
       <!-- Nav Links -->
       <nav class="navbar">
-        <a href="/index.html">Home</a>
-        <a href="/attraction.html">Attractions</a>
-        <a href="/ticket.html" class="active">Ticket</a>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/attraction.html">Attractions</a></li>
+          <li><a href="/ticket.html" class="active">Ticket</a></li>
+        </ul>
       </nav>
     </header>
     <!-- End Header & Nav -->
@@ -57,34 +62,34 @@
       </section>
       <!-- End Hero Section -->
 
-      <section class="ticket"></section>
+      <article class="ticket"></article>
 
       <!-- Booking Section -->
-      <section class="booking">
+      <article class="booking">
         <div class="booking-container">
           <!-- Image on left side -->
-          <div class="image">
-            <img src="/static/main/picture1.jpg" alt="">
-          </div>
+          <aside class="image">
+            <img src="/static/index/picture1.jpg" alt="test test test" />
+          </aside>
           <!-- Booking Form on right -->
           <div class="booking-form">
             <form action="#">
-              <h1>Booking Online</h1>
+              <h2>Booking Online</h2>
               <div class="form">
                 <p>Your Name</p>
-                <input type="text" placeholder="Enter Name Here" required>
+                <input type="text" placeholder="Enter Name Here" required />
               </div>
               <div class="form">
                 <p>Your Email</p>
-                <input type="email" placeholder="Enter Email Here" required>
+                <input type="email" placeholder="Enter Email Here" required />
               </div>
               <div class="form">
                 <p>Ticket Date</p>
-                <input type="date" required>
+                <input type="date" required />
               </div>
               <div class="form">
                 <p>Ticket Time</p>
-                <input type="time" required>
+                <input type="time" required />
               </div>
               <div class="form">
                 <p>Ticket Type</p>
@@ -96,16 +101,14 @@
               </div>
               <div class="form">
                 <p>Number of Tickets</p>
-                <input type="number" placeholder="Enter Number" required>
+                <input type="number" placeholder="Enter Number" required />
               </div>
 
               <button class="submit-button">Submit</button>
-
             </form>
           </div>
         </div>
-      </section>
-
+      </article>
     </main>
 
     <!-- Start Footer -->
@@ -115,7 +118,7 @@
         <div class="footer-top">
           <!-- Top-Left Portion of Footer to hold Logo -->
           <a href="/" class="logo-bottom"
-            ><img src="static/logo.png" alt=""
+            ><img src="static/logo.png" alt="test test test"
           /></a>
 
           <!-- Top-Right Side to hold other links -->
@@ -125,9 +128,11 @@
               <h6>Quicklinks</h6>
               <!-- Columns Links -->
               <nav>
-                <a href="#">Home</a>
-                <a href="#">Attractions</a>
-                <a href="#">Ticket</a>
+                <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/attraction.html">Attractions</a></li>
+                <li><a href="/ticket.html">Ticket</a></li>
+              </ul>
               </nav>
             </div>
             <div class="footer-top-links">
@@ -135,8 +140,10 @@
               <h6>Events</h6>
               <!-- Columns Links -->
               <nav>
-                <a role="button">Summer</a>
-                <a role="button">Halloween</a>
+                <ul>
+                <li><a role="button">Summer</a></li>
+                <li><a role="button">Halloween</a></li>
+              </ul>
               </nav>
             </div>
             <div class="footer-top-links">
@@ -144,10 +151,12 @@
               <h6>About Us</h6>
               <!-- Columns Links -->
               <nav>
-                <a role="button">Our Mission</a>
-                <a role="button">Team</a>
-                <a role="button">FAQ</a>
-                <a role="button">Report</a>
+                <ul>
+                <li><a role="button">Our Mission</a></li>
+                <li><a role="button">Team</a></li>
+                <li></li><a role="button">FAQ</a></li>
+                <li></li><a role="button">Report</a></li>
+              </ul>
               </nav>
             </div>
           </div>
@@ -156,20 +165,20 @@
         <!-- Bottom Portion Of Footer -->
         <div class="footer-bottom">
           <!-- Bottom-Left portion to hold Social Media Icons -->
-          <div class="social-media-links">
-            <a role="button"><i class="bx bxl-linkedin"></i></a>
-            <a role="button"><i class="bx bxl-instagram"></i></a>
-            <a role="button"><i class="bx bxl-facebook"></i></a>
-            <a role="button"><i class="bx bxl-twitter"></i></a>
-            <a role="button"><i class="bx bxl-tiktok"></i></a>
-          </div>
+          <ul class="social-media-links">
+            <li><a role="button"><i class="bx bxl-linkedin"></i></a></li>
+            <li><a role="button"><i class="bx bxl-instagram"></i></a></li>
+            <li><a role="button"><i class="bx bxl-facebook"></i></a></li>
+            <li><a role="button"><i class="bx bxl-twitter"></i></a></li>
+            <li><a role="button"><i class="bx bxl-tiktok"></i></a></li>
+          </ul>
 
           <!-- Bottom-Right to hold policy, terms & conditon and copyright -->
-          <div class="footer-bottom-section">
-            <a role="button">Privacy Policy</a>
-            <a role="button">Terms & Conditions</a>
-            <h6>Copyright © 2024, TEAM 79</h6>
-          </div>
+            <ul class="footer-bottom-section">
+            <li><a role="button">Privacy Policy</a></li>
+            <li><a role="button">Terms & Conditions</a></li>
+            <li><h6>Copyright © 2024, TEAM 79</h6></li>
+          </ul>
         </div>
       </div>
     </footer>
