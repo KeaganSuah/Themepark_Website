@@ -91,6 +91,7 @@ select {
   font-size: 1.3rem;
   background-color: transparent;
   transition: 0.5s ease;
+  cursor: pointer;
 }
 
 .booking-container button:hover {
