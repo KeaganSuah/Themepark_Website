@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>test test test</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta Data for Web Page -->
+    <meta name="keywords" content="test test test" />
+    <meta name="author" content="test test test" />
+    <meta name="description" content="test test test" />
+
+    <!-- Box Icons Import -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Web Icon -->
+    <link rel="icon" sizes="512x512" href="static/logo.png" />
+
+    <!-- Global Style -->
+    <link rel="stylesheet" href="/styles/global/global.css" />
+    <link rel="stylesheet" href="/styles/global/header.css" />
+    <link rel="stylesheet" href="/styles/global/footer.css" />
+
+    <!-- Page Style -->
+    <link rel="stylesheet" href="/styles/ticket/hero.css" />
+    <link rel="stylesheet" href="/styles/ticket/booking.css" />
+  </head>
+
+  <body>
+    <!-- Start Header & Nav -->
+    <header class="header">
+      <!-- Logo -->
+      <a href="/" class="logo">
+        <img src="static/logo.png" alt="test test test" />
+      </a>
+
+      <!-- Menus icon for small screen devices -->
+      <div class="bx bx-menu" id="menu-bar"></div>
+
+      <!-- Nav Links -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/attraction.html">Attractions</a></li>
+          <li><a href="/ticket.html" class="active">Ticket</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header & Nav -->
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero">
+        <!-- Hero contents, background image in CSS -->
+        <div class="hero-content">
+          <h1>Welcome To a Land Of Magic</h1>
+          <p>Get ready for your visit to the Disneyland Resort</p>
+        </div>
+      </section>
+      <!-- End Hero Section -->
+
+      <article class="ticket"></article>
+
+      <!-- Booking Section -->
+      <article class="booking">
+        <div class="booking-container">
+          <!-- Image on left side -->
+          <aside class="image">
+            <img src="/static/index/picture1.jpg" alt="test test test" />
+          </aside>
+          <!-- Booking Form on right -->
+          <div class="booking-form">
+            <form action="#">
+              <h2>Booking Online</h2>
+              <div class="form">
+                <p>Your Name</p>
+                <input type="text" placeholder="Enter Name Here" required />
+              </div>
+              <div class="form">
+                <p>Your Email</p>
+                <input type="email" placeholder="Enter Email Here" required />
+              </div>
+              <div class="form">
+                <p>Ticket Date</p>
+                <input type="date" required />
+              </div>
+              <div class="form">
+                <p>Ticket Time</p>
+                <input type="time" required />
+              </div>
+              <div class="form">
+                <p>Ticket Type</p>
+                <select name="select" required>
+                  <option value="standard">Standard</option>
+                  <option value="express">Express</option>
+                  <option value="prenium">Prenium</option>
+                </select>
+              </div>
+              <div class="form">
+                <p>Number of Tickets</p>
+                <input type="number" placeholder="Enter Number" required />
+              </div>
+
+              <button class="submit-button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="footer-container">
+        <!-- Top Portion Of Footer -->
+        <div class="footer-top">
+          <!-- Top-Left Portion of Footer to hold Logo -->
+          <a href="/" class="logo-bottom"
+            ><img src="static/logo.png" alt="test test test"
+          /></a>
+
+          <!-- Top-Right Side to hold other links -->
+          <div class="footer-top-section">
+            <div class="footer-top-links">
+              <!-- Title of Links Column -->
+              <h6>Quicklinks</h6>
+              <!-- Columns Links -->
+              <nav>
+                <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/attraction.html">Attractions</a></li>
+                <li><a href="/ticket.html">Ticket</a></li>
+              </ul>
+              </nav>
+            </div>
+            <div class="footer-top-links">
+              <!-- Title of Links Column -->
+              <h6>Events</h6>
+              <!-- Columns Links -->
+              <nav>
+                <ul>
+                <li><a role="button">Summer</a></li>
+                <li><a role="button">Halloween</a></li>
+              </ul>
+              </nav>
+            </div>
+            <div class="footer-top-links">
+              <!-- Title of Links Column -->
+              <h6>About Us</h6>
+              <!-- Columns Links -->
+              <nav>
+                <ul>
+                <li><a role="button">Our Mission</a></li>
+                <li><a role="button">Team</a></li>
+                <li></li><a role="button">FAQ</a></li>
+                <li></li><a role="button">Report</a></li>
+              </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Portion Of Footer -->
+        <div class="footer-bottom">
+          <!-- Bottom-Left portion to hold Social Media Icons -->
+          <ul class="social-media-links">
+            <li><a role="button"><i class="bx bxl-linkedin"></i></a></li>
+            <li><a role="button"><i class="bx bxl-instagram"></i></a></li>
+            <li><a role="button"><i class="bx bxl-facebook"></i></a></li>
+            <li><a role="button"><i class="bx bxl-twitter"></i></a></li>
+            <li><a role="button"><i class="bx bxl-tiktok"></i></a></li>
+          </ul>
+
+          <!-- Bottom-Right to hold policy, terms & conditon and copyright -->
+            <ul class="footer-bottom-section">
+            <li><a role="button">Privacy Policy</a></li>
+            <li><a role="button">Terms & Conditions</a></li>
+            <li><h6>Copyright © 2024, TEAM 79</h6></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Global Scripts -->
+    <script src="/scripts/global.js"></script>
+  </body>
+</html>
