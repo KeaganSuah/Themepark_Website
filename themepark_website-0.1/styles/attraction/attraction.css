@@ -1,0 +1,95 @@
+/************** Attraction Section **************/
+
+/* Set the container for attraction section */
+.attraction-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.attraction-container .card {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  transition: 0.7s ease;
+  border: 1px solid var(--text-color-mid);
+  cursor: pointer;
+}
+
+.attraction-container .card a {
+  text-decoration: none;
+}
+
+.attraction-container .card:hover,
+.attraction-container .card:focus {
+  transform: scale(1.05);
+  box-shadow: 0 2px 10px 2px var(--text-color-mid);
+}
+
+.attraction-container .card .image {
+  padding: 0 0 0.2rem 0;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+}
+
+.attraction-container .card .image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 0.9rem 0.9rem 0 0;
+}
+
+/* Content section in single attraction card */
+
+.attraction-container .card .content {
+  padding: 1rem 0.9rem 4.5rem 0.9rem;
+  text-align: center;
+}
+
+.attraction-container .card .content h3 {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.attraction-container .card .content p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+/************** Responsiveness **************/
+
+@media (max-width: 1024px) {
+  .attraction-container {
+    gap: 2rem;
+  }
+  .attraction-container .card .image {
+    height: 50%;
+  }
+  .attraction-container .card .content h3 {
+    font-size: 1.1rem;
+  }
+
+  .attraction-container .card .content p {
+    font-size: 1rem;
+  }
+}
+
+/* tablet */
+@media (max-width: 900px) {
+  .attraction-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* smart Phone */
+@media (max-width: 700px) {
+  .attraction-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

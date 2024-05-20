@@ -1,0 +1,175 @@
+/************** Footer Section **************/
+
+/* Overall footer padding and creating a line at the top */
+footer {
+  padding: 5rem 9% 2rem;
+}
+
+.footer-container {
+  border-top: 2px solid var(--main-color);
+  padding: 4rem 0 6rem 0;
+}
+
+/* Start of the footer design at the start, consist of logo and bottom links */
+
+.footer-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.logo-bottom {
+  top: 0;
+}
+
+.logo-bottom img {
+  width: 150px;
+  height: 130px;
+}
+
+.footer-top-section,
+.footer-bottom-section {
+  align-items: flex-start;
+  gap: 4rem;
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.footer-bottom-section {
+  gap: 1.4rem;
+}
+
+.footer-top-links nav {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.footer-top-links h6 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.footer-top-links nav a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color-mid);
+  transition: 0.5s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-top-links nav ul {
+  list-style-type: none;
+}
+
+.footer-top-links nav ul li {
+  padding: 0.3rem 0;
+}
+
+.footer-top-links nav a:focus,
+.footer-top-links nav a:hover {
+  color: var(--text-color);
+}
+
+/* Start of the footer design at the bottom, consist of social media links and other policies */
+
+.footer-bottom {
+  margin-top: 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-bottom ul {
+  list-style-type: none;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social-media-links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  border: 0.15rem solid var(--text-color);
+  border-radius: 50%;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+.social-media-links a:hover,
+.social-media-links a:focus {
+  color: var(--bg-color);
+  background-color: var(--text-color);
+}
+
+.footer-bottom-section a {
+  color: var(--text-color-mid);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.footer-bottom-section a:hover,
+.footer-bottom-section a:focus {
+  color: var(--text-color);
+}
+
+.footer-bottom-section h6 {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/************** Responsiveness **************/
+
+/* Small Tablet Device */
+@media (max-width: 768px) {
+  .footer-bottom {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+}
+
+/* Big Phone Device */
+@media (max-width: 600px) {
+  .footer-bottom-section {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .footer-top {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+}
+
+/* Small Phone Device */
+@media (max-width: 500px) {
+  .footer-top-section {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+  .footer-top-links nav {
+    align-items: center;
+  }
+}
