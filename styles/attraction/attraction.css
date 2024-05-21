@@ -13,6 +13,7 @@
   border-radius: 1rem;
   transition: 0.7s ease;
   border: 1px solid var(--text-color-mid);
+  background: var(--content-bg);
   cursor: pointer;
 }
 

@@ -21,7 +21,7 @@
 .ticket-card-header {
   width: 20em;
   height: 12em;
-  background: linear-gradient(331deg, var(--text-color), var(--main-color));
+  background: linear-gradient(331deg, var(--text-color-mid), var(--main-color));
   border-radius: 1rem;
   display: flex;
   justify-content: center;
@@ -108,7 +108,7 @@
 }
 
 .ticket-card button {
-  background: linear-gradient(331deg, var(--text-color), var(--main-color));
+  background: linear-gradient(331deg, var(--text-color-mid), var(--main-color));
   color: var(--bg-color);
   border: none;
   border-radius: 5em;
