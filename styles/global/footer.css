@@ -111,7 +111,7 @@ footer {
 
 .social-media-links a:hover,
 .social-media-links a:focus {
-  color: var(--bg-color);
+  color: var(--text-color-lighter);
   background-color: var(--text-color);
 }
 

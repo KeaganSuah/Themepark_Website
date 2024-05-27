@@ -12,13 +12,14 @@
 
 /* Variables for background and text */
 :root {
-  --bg-color: rgb(248, 248, 248);
-  --second-bg-color: rgb(243, 243, 243);
-  --third-bg-color: rgb(235, 235, 235);
-  --content-bg: linear-gradient(331deg, var(--third-bg-color), var(--bg-color));
+  --bg-color: rgb(245, 245, 245);
+  --second-bg-color: rgb(248, 248, 248);
+  --content-bg: linear-gradient(321deg, rgb(218, 223, 234), rgb(255, 255, 255));
   --main-color: rgb(10, 132, 255);
   --text-color: rgb(23, 23, 23);
   --text-color-mid: rgb(129, 129, 129);
+  --text-color-light: rgb(243, 243, 243);
+  --text-color-lighter: rgb(248, 248, 248);
 }
 
 /* Excess content is hidden to remove horizontal scroll bar */
@@ -27,7 +28,7 @@ html {
 }
 
 body {
-  background: var(--bg-color);
+  background: var(--text-color-lighter);
   color: var(--text-color);
 }
 
@@ -45,6 +46,7 @@ article {
   background-color: var(--bg-color);
 }
 
+/* Alternate the background colour for each section */
 article:nth-child(odd) {
   background-color: var(--second-bg-color);
 }

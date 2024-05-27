@@ -1,5 +1,9 @@
 /************** ticket price Section **************/
 
+.ticket {
+  background-image: url("/static/index/picture3.jpg");
+}
+
 /* Overall ticket layout */
 .ticket {
   min-height: 100vh;
@@ -30,11 +34,11 @@
 }
 
 .top-card {
-  filter: drop-shadow(0 1em 1em var(--bg-color));
+  filter: drop-shadow(0 1em 1em var(--text-color-light));
 }
 
 .price {
-  background: var(--bg-color);
+  background: var(--text-color-light);
   width: 7em;
   height: 7em;
   position: absolute;
@@ -62,21 +66,21 @@
   margin: 0.3em;
   font-size: 2.3em;
   letter-spacing: 4px;
-  color: var(--bg-color);
+  color: var(--text-color-light);
   text-transform: uppercase;
 }
 
 .title p {
   font-size: 1em;
   letter-spacing: 1px;
-  color: var(--bg-color);
+  color: var(--text-color-light);
 }
 
 .ticket-card-body {
   width: 18em;
   margin: -4em auto 0 auto;
   padding: 2em 1em 1em;
-  background: var(--bg-color);
+  background: var(--text-color-light);
   border-radius: 10px;
   box-shadow: 0 0 10px 2px var(--text-color-mid);
   transition: 0.5s ease;
@@ -105,7 +109,7 @@
 }
 
 .ticket-card li:nth-child(odd) {
-  background: var(--second-bg-color);
+  background: var(--text-color-lighter);
 }
 
 .ticket-card li i {
@@ -137,13 +141,13 @@
 }
 
 .ticket-card button:hover {
-  background: var(--bg-color);
+  background: var(--text-color-light);
   color: var(--text-color);
 }
 
 .ticket-card button {
   background: linear-gradient(331deg, var(--text-color-mid), var(--main-color));
-  color: var(--bg-color);
+  color: var(--text-color-light);
   border: none;
   border-radius: 5em;
   padding: 1.1em 2.3em;

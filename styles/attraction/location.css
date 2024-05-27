@@ -46,7 +46,7 @@
   height: 50px;
   margin-right: 0.8rem;
   background: var(--main-color);
-  color: var(--second-bg-color);
+  color: var(--text-color-lighter);
   border-radius: 50%;
   line-height: 50px;
   text-align: center;
@@ -65,7 +65,8 @@
   transition: 0.5s ease;
 }
 
-.contact-card:nth-child(2) h4 {
+.contact-card:nth-child(2) h4,
+.contact-card:nth-child(4) h4 {
   font-size: 1.1rem;
 }
 

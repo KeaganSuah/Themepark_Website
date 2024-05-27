@@ -32,7 +32,7 @@
 }
 
 .container-event .image-big a .content {
-  color: var(--bg-color);
+  color: var(--text-color-lighter);
   position: absolute;
   z-index: 1;
   padding: 2rem 1.5rem;
@@ -71,7 +71,7 @@
 }
 
 .container-event .image-small a .content {
-  color: var(--bg-color);
+  color: var(--text-color-lighter);
   position: absolute;
   z-index: 1;
   padding: 1.5rem 1rem;
@@ -120,10 +120,9 @@
   }
 
   .container-event .image-big a .content,
-  .container-event .image-small a .content{
+  .container-event .image-small a .content {
     max-width: 45vw;
   }
-  
 }
 
 @media (max-width: 600px) {
@@ -149,7 +148,7 @@
   }
 
   .container-event .image-big a .content,
-  .container-event .image-small a .content{
+  .container-event .image-small a .content {
     max-width: 90vw;
   }
 }

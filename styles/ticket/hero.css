@@ -8,7 +8,7 @@ article {
   background-position: center;
   background-attachment: fixed;
   background-position: center bottom;
-  box-shadow: 0 0.1px 20px var(--bg-color);
+  box-shadow: 0 0.1px 20px var(--text-color-light);
 }
 
 #hero {
@@ -37,11 +37,6 @@ article {
   padding: 1.3rem 0;
   color: var(--text-color);
   font-weight: 400;
-}
-
-/* Change the background picture to different mode for small parallax effect */
-.ticket {
-  background-image: url("/static/index/picture3.jpg");
 }
 
 /************** Responsiveness **************/

@@ -103,8 +103,8 @@ h2 {
   font-weight: 600;
   font-size: 1rem;
   background: linear-gradient(331deg, rgb(190, 190, 190), var(--main-color));
-  border: 2px solid var(--second-bg-color);
-  color: var(--bg-color);
+  border: 2px solid var(--text-color-lighter);
+  color: var(--text-color-lighter);
   text-transform: uppercase;
   padding: 0.7rem 2rem;
   border-radius: 1rem;
@@ -121,11 +121,11 @@ h2 {
 /* Change the background of the contents card for all sections */
 
 .promotion .container .content {
-  background-color: var(--second-bg-color);
+  background-color: var(--text-color-lighter);
 }
 
 .planning .container .content {
-  background-color: var(--bg-color);
+  background-color: var(--text-color-lighter);
 }
 
 /************** Responsiveness **************/
