@@ -55,16 +55,6 @@
     <!-- End Header & Nav -->
 
     <main>
-      <!-- Hero Section -->
-      <section id="hero">
-        <!-- Hero contents, background image in CSS -->
-        <div class="hero-content">
-          <h1>Welcome To a Land Of Magic</h1>
-          <p>Get ready for your visit to the Disneyland Resort</p>
-        </div>
-      </section>
-      <!-- End Hero Section -->
-
       <!-- Ticket Pricing section -->
       <article class="ticket">
         <!-- Regular ticket card -->
@@ -189,33 +179,45 @@
           <!-- Booking Form on right -->
           <div class="booking-form">
             <form action="#">
-              <h2>Booking Online</h2>
+              <h2>Ticket Date & Time</h2>
               <div class="form">
-                <p>Your Name</p>
-                <input type="text" placeholder="Enter Name Here" required />
-              </div>
-              <div class="form">
-                <p>Your Email</p>
-                <input type="email" placeholder="Enter Email Here" required />
-              </div>
-              <div class="form">
-                <p>Ticket Date</p>
-                <input type="date" required />
+                <p>Number of Days</p>
+                <input type="number" placeholder="Enter Number" min="0" required />
               </div>
               <div class="form">
                 <p>Ticket Time</p>
                 <input type="time" required />
               </div>
               <div class="form">
-                <p>Number of Tickets</p>
-                <input type="number" placeholder="Enter Number" required />
+                <p>Ticket Date</p>
+                <input type="date" required />
               </div>
-
-              <button class="submit-button">Submit</button>
+              <h2>Number of Tickets</h2>
+              <div class="form">
+                <p>Ticket for Age 10+</p>
+                <input type="number" placeholder="Enter Number" min="0" required />
+              </div>
+              <div class="form">
+                <p>Ticket for Age 3-9</p>
+                <input type="number" placeholder="Enter Number" min="0" required />
+              </div>
             </form>
           </div>
         </div>
       </article>
+      <!-- End Booking Section -->
+
+      <!-- Hero Section -->
+      <article id="hero">
+        <!-- Hero contents, background image in CSS -->
+        <div class="hero-content">
+          <h1>Welcome To a Land Of Magic</h1>
+          <p>Get ready for your visit to the Disneyland Resort</p>
+          <button class="submit-button">Submit</button>
+        </div>
+      </article>
+      <!-- End Hero Section -->
+
     </main>
 
     <!-- Start Footer -->

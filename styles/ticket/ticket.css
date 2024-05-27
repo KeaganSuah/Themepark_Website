@@ -1,7 +1,17 @@
 /************** ticket price Section **************/
 
+article {
+  height: 100vh;
+  padding: 3.5rem 13% 5rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center bottom;
+  box-shadow: 0 0.1px 20px var(--text-color-light);
+}
+
 .ticket {
-  background-image: url("/static/index/picture3.jpg");
+  background-image: url("/static/index/picture2.jpg");
 }
 
 /* Overall ticket layout */
@@ -12,7 +22,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 2em;
+  padding: 5em 2em 0;
   gap: 1rem;
 }
 
@@ -161,6 +171,11 @@
 /************** Responsiveness **************/
 
 @media (max-width: 1076px) {
+  article {
+    background-position: left bottom;
+    padding: 3.5rem 5% 5rem;
+  }
+
   .ticket {
     min-height: 110vh;
   }

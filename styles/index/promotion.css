@@ -24,7 +24,7 @@ h2 {
   grid-column: span 2;
   box-shadow: 0 0 5px 0.2px var(--text-color-mid);
   width: 100%;
-  height: 50vh;
+  height: 45vh;
   overflow: hidden;
   border-radius: 1rem;
   transition: 0.8s ease;
@@ -46,7 +46,7 @@ h2 {
   grid-column: span 1;
   box-shadow: 0 0 5px 0.2px var(--text-color-mid);
   width: 100%;
-  height: 50vh;
+  height: 45vh;
   overflow: hidden;
   border-radius: 1rem;
   transition: 0.8s ease;
