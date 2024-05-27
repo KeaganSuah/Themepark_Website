@@ -22,7 +22,7 @@ h2 {
 
 .infographic-container .card:hover .image img {
   transform: translateY(-20%) scale(1.1);
-  box-shadow: 0 0 10px 1px var(--text-color-mid);
+  box-shadow: 0 0 10px 1px var(--main-color);
 }
 
 .infographic-container .card .image {
