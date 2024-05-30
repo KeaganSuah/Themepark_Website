@@ -1,0 +1,102 @@
+/************** Payment Section **************/
+/* Set the section to have full height of screen and background picture focus at the bottom */
+
+#payment {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/static/index/picture4.jpg");
+}
+
+#payment form {
+  width: 55vw;
+  border-radius: 1rem;
+  padding: 3rem;
+  background: var(--content-bg);
+  box-shadow: 0 0 10px 0.2px var(--text-color-mid);
+}
+
+#payment form .row {
+  display: flex;
+  gap: 2rem;
+}
+
+.row .column {
+  flex: 1 1 250px;
+}
+
+.column h2 {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--main-color);
+  font-family: cursive;
+}
+
+.column .input-box {
+  margin: 1rem 0;
+}
+
+.input-box span {
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.column .flex {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.flex .input-box {
+  margin-top: 0.8rem;
+}
+
+.submit-button {
+  width: 100%;
+  margin: 1rem auto;
+  height: 3rem;
+  border-radius: 1rem;
+  color: var(--text-color-lighter);
+  background: linear-gradient(331deg, rgb(190, 190, 190), var(--main-color));
+  border: 2px solid var(--content-bg);
+  box-shadow: 0 0 2px 0.1px var(--text-color-mid);
+  font-size: 1.3rem;
+  background-color: transparent;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: var(--text-color-lighter);
+  border: 2px solid var(--main-color);
+  color: var(--text-color);
+}
+
+@media (max-width: 900px) {
+  #payment form .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #payment {
+    min-height: 110vh;
+  }
+}
+
+@media (max-width: 600px) {
+  #payment form {
+    width: 75vw;
+  }
+}

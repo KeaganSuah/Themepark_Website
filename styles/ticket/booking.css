@@ -41,6 +41,7 @@
 }
 
 .booking-form h2 {
+  text-transform: uppercase;
   font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
@@ -49,7 +50,7 @@
   font-family: cursive;
 }
 
-form {
+.booking-container form {
   display: grid;
   grid-row-gap: 20px;
 }
@@ -64,8 +65,8 @@ form {
   font-size: 1.3rem;
 }
 
-input,
-select {
+.form input,
+.form select {
   padding: 10px 15px;
   width: 35%;
   height: 3rem;
@@ -82,18 +83,19 @@ select {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    margin: 1rem 4rem;
   }
 
-  .booking{
+  .booking {
     min-height: 105vh;
-  }
-
-  .booking-container{
-    margin: 1rem;
   }
 }
 
 @media (max-width: 600px) {
+  .booking-container {
+    margin: 1rem 2rem;
+  }
+
   .form {
     display: flex;
     flex-direction: column;
@@ -101,11 +103,7 @@ select {
     gap: 0.5rem;
   }
 
-  input,
-  select,
-  .form:nth-child(2) input,
-  select,
-  .form:nth-child(3) input,
+  .form input,
   select {
     width: 100%;
   }

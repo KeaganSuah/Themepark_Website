@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="/styles/global/footer.css" />
 
     <!-- Page Style -->
-    <link rel="stylesheet" href="/styles/ticket/hero.css" />
+    <link rel="stylesheet" href="/styles/ticket/payment.css" />
     <link rel="stylesheet" href="/styles/ticket/ticket.css" />
     <link rel="stylesheet" href="/styles/ticket/booking.css" />
   </head>
@@ -207,16 +207,76 @@
       </article>
       <!-- End Booking Section -->
 
-      <!-- Hero Section -->
-      <article id="hero">
-        <!-- Hero contents, background image in CSS -->
-        <div class="hero-content">
-          <h1>Welcome To a Land Of Magic</h1>
-          <p>Get ready for your visit to the Disneyland Resort</p>
-          <button class="submit-button">Submit</button>
-        </div>
+      <!-- Payment Section -->
+      <article id="payment">
+        <!-- Payment contents, background image in CSS -->
+        <form action="">
+          <div class="row">
+            <div class="column">
+            <h2>Billing Address</h2>
+              <div class="input-box">
+                <span>Full Name: </span>
+                <input type="text" placeholder="Jacob Aiden">
+              </div>
+              <div class="input-box">
+                <span>Email: </span>
+                <input type="email" placeholder="example@example.com">
+              </div>
+              <div class="input-box">
+                <span>Address: </span>
+                <input type="text" placeholder="Room - Street - Locally">
+              </div>
+              <div class="input-box">
+                <span>City: </span>
+                <input type="text" placeholder="Singapore">
+              </div>
+              <div class="flex">
+                <div class="input-box">
+                  <span>State: </span>
+                  <input type="text" placeholder="Singapore">
+                </div>
+                <div class="input-box">
+                  <span>Zip Code: </span>
+                  <input type="text" placeholder="530312">
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <h2>Payment</h2>
+                <div class="input-box">
+                  <span>Cards Accepted: </span>
+                  <input type="text" placeholder="Jacob Aiden">
+                </div>
+                <div class="input-box">
+                  <span>Name On Card: </span>
+                  <input type="text" placeholder="Mr. Jacob Aiden">
+                </div>
+                <div class="input-box">
+                  <span>Credit Card Number: </span>
+                  <input type="number" placeholder="1111 2222 3333 4444">
+                </div>
+                <div class="input-box">
+                  <span>Exp. Month </span>
+                  <input type="text" placeholder="August">
+                </div>
+                <div class="flex">
+                  <div class="input-box">
+                    <span>Exp Year: </span>
+                    <input type="number" placeholder="2025">
+                  </div>
+                  <div class="input-box">
+                    <span>CVV: </span>
+                    <input type="number" placeholder="123">
+                  </div>
+                </div>
+              </div>
+
+          </div>
+          <button type="submit" class="submit-button">Submit</button>
+        </form>
       </article>
-      <!-- End Hero Section -->
+      <!-- End Payment Section -->
 
     </main>
 
