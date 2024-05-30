@@ -2,7 +2,7 @@
 
 /* change section background */
 .booking {
-  background-image: url("/static/index/picture3.jpg");
+  background-image: url("/static/ticket/picture2.jpg");
 }
 
 /* Booking Container, image on the left and booking form on the right */
@@ -15,7 +15,7 @@
   height: 70vh;
   margin: auto 0;
 }
-
+ 
 .booking-container .image {
   padding: 0.5rem;
   height: 100%;
