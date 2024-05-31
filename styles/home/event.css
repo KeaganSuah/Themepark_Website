@@ -1,0 +1,154 @@
+/************** Events Section **************/
+
+/* Set the container for Events section */
+.event-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 2px var(--text-color-mid);
+}
+
+/* Larger image to represent the main event */
+.event-main-image {
+  grid-column: span 3;
+  width: 100%;
+  height: 45vh;
+  overflow: hidden;
+  border-radius: 1rem 1rem 0 0;
+  cursor: pointer;
+}
+
+.event-main-image a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  box-sizing: border-box;
+  transition: 1s ease;
+}
+
+.event-main-image a:hover img {
+  transform: scale(1.1);
+}
+
+.event-main-image a .content {
+  color: var(--text-color-lighter);
+  position: absolute;
+  z-index: 1;
+  padding: 2rem 1.5rem;
+  text-shadow: 2px 2px 2px var(--text-color);
+}
+
+.event-main-image a .content h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.event-main-image a .content h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* Smaller image to represent the sub event */
+.event-image {
+  width: 100%;
+  height: 45vh;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.event-image a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  box-sizing: border-box;
+  transition: 0.75s ease;
+}
+
+.event-image a:hover img {
+  transform: scale(1.1);
+}
+
+.event-image a .content {
+  color: var(--text-color-lighter);
+  position: absolute;
+  z-index: 1;
+  padding: 1.5rem 1rem;
+  max-width: 30vw;
+  text-shadow: 2px 2px 2px var(--text-color);
+}
+
+.event-image a .content h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.event-image a .content h4 {
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+/* round the corners of the image in the container */
+.event-image:nth-child(2) {
+  border-bottom-left-radius: 1rem;
+}
+
+.event-image:nth-child(4) {
+  border-bottom-right-radius: 1rem;
+}
+
+/************** Responsiveness **************/
+
+/* Change the number of image presented in the row, then change the rounder border */
+@media (max-width: 928px) {
+  .event-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .event-main-image {
+    grid-column: span 1;
+    border-radius: 1rem 0 0 0;
+  }
+
+  .event-image:nth-child(2) {
+    border-radius: 0 1rem 0 0;
+  }
+
+  .event-image:nth-child(3) {
+    border-radius: 0 0 0 1rem;
+  }
+
+  .event-main-image a .content,
+  .event-image a .content {
+    max-width: 45vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .event-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-main-image {
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .event-image:nth-child(2) {
+    border-radius: 0;
+  }
+
+  .event-image:nth-child(3) {
+    border-radius: 0;
+  }
+
+  .event-image:last-child {
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  .event-main-image a .content,
+  .event-image a .content {
+    max-width: 90vw;
+  }
+}

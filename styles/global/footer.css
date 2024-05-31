@@ -18,11 +18,11 @@ footer {
   justify-content: space-between;
 }
 
-.logo-bottom {
+.logo-footer {
   top: 0;
 }
 
-.logo-bottom img {
+.logo-footer img {
   width: 150px;
   height: 130px;
 }

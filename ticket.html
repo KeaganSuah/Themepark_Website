@@ -173,31 +173,31 @@
       <article class="booking">
         <div class="booking-container">
           <!-- Image on left side -->
-          <aside class="image">
-            <img src="/static/index/picture1.jpg" alt="test test test" />
+          <aside class="booking-image">
+            <img src="/static/home/picture1.jpg" alt="test test test" />
           </aside>
           <!-- Booking Form on right -->
-          <div class="booking-form">
+          <div class="booking-form-container">
             <form action="#">
               <h2>Ticket Date & Time</h2>
-              <div class="form">
+              <div class="booking-form">
                 <p>Number of Days</p>
                 <input type="number" placeholder="Enter Number" min="0" required />
               </div>
-              <div class="form">
+              <div class="booking-form">
                 <p>Ticket Time</p>
                 <input type="time" required />
               </div>
-              <div class="form">
+              <div class="booking-form">
                 <p>Ticket Date</p>
                 <input type="date" required />
               </div>
               <h2>Number of Tickets</h2>
-              <div class="form">
+              <div class="booking-form">
                 <p>Ticket for Age 10+</p>
                 <input type="number" placeholder="Enter Number" min="0" required />
               </div>
-              <div class="form">
+              <div class="booking-form">
                 <p>Ticket for Age 3-9</p>
                 <input type="number" placeholder="Enter Number" min="0" required />
               </div>
@@ -211,61 +211,61 @@
       <article id="payment">
         <!-- Payment contents, background image in CSS -->
         <form action="">
-          <div class="row">
-            <div class="column">
+          <div class="payment-container">
+            <div class="payment-column">
             <h2>Billing Address</h2>
-              <div class="input-box">
+              <div class="payment-form">
                 <span>Full Name: </span>
                 <input type="text" placeholder="Jacob Aiden">
               </div>
-              <div class="input-box">
+              <div class="payment-form">
                 <span>Email: </span>
                 <input type="email" placeholder="example@example.com">
               </div>
-              <div class="input-box">
+              <div class="payment-form">
                 <span>Address: </span>
                 <input type="text" placeholder="Room - Street - Locally">
               </div>
-              <div class="input-box">
+              <div class="payment-form">
                 <span>City: </span>
                 <input type="text" placeholder="Singapore">
               </div>
-              <div class="flex">
-                <div class="input-box">
+              <div class="payment-bottom">
+                <div class="payment-form">
                   <span>State: </span>
                   <input type="text" placeholder="Singapore">
                 </div>
-                <div class="input-box">
+                <div class="payment-form">
                   <span>Zip Code: </span>
                   <input type="text" placeholder="530312">
                 </div>
               </div>
             </div>
 
-            <div class="column">
+            <div class="payment-column">
               <h2>Payment</h2>
-                <div class="input-box">
+                <div class="payment-form">
                   <span>Cards Accepted: </span>
-                  <input type="text" placeholder="Jacob Aiden">
+                  <img src="/static/ticket/payments.png" alt="">
                 </div>
-                <div class="input-box">
+                <div class="payment-form">
                   <span>Name On Card: </span>
                   <input type="text" placeholder="Mr. Jacob Aiden">
                 </div>
-                <div class="input-box">
+                <div class="payment-form">
                   <span>Credit Card Number: </span>
                   <input type="number" placeholder="1111 2222 3333 4444">
                 </div>
-                <div class="input-box">
+                <div class="payment-form">
                   <span>Exp. Month </span>
                   <input type="text" placeholder="August">
                 </div>
-                <div class="flex">
-                  <div class="input-box">
+                <div class="payment-bottom">
+                  <div class="payment-form">
                     <span>Exp Year: </span>
                     <input type="number" placeholder="2025">
                   </div>
-                  <div class="input-box">
+                  <div class="payment-form">
                     <span>CVV: </span>
                     <input type="number" placeholder="123">
                   </div>
@@ -286,7 +286,7 @@
         <!-- Top Portion Of Footer -->
         <div class="footer-top">
           <!-- Top-Left Portion of Footer to hold Logo -->
-          <a href="/" class="logo-bottom"
+          <a href="/" class="logo-footer"
             ><img src="static/logo.png" alt="test test test"
           /></a>
 

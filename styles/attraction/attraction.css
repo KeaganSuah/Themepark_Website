@@ -6,8 +6,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-
-.attraction-container .card {
+.attraction-card {
   width: 100%;
   max-height: 37em;
   border-radius: 1rem;
@@ -18,24 +17,24 @@
   height: 70vh;
 }
 
-.attraction-container .card a {
+ .attraction-card a {
   text-decoration: none;
 }
 
-.attraction-container .card:hover,
-.attraction-container .card:focus {
+ .attraction-card:hover,
+ .attraction-card:focus {
   transform: translateY(-4%);
   box-shadow: 0 2px 10px 0.2px var(--text-color-mid);
 }
 
-.attraction-container .card .image {
+ .attraction-card .image {
   padding-bottom: 0.2rem;
   text-align: center;
   width: 100%;
   height: 55%;
 }
 
-.attraction-container .card .image img {
+ .attraction-card .image img {
   width: 100%;
   height: 100%;
   display: block;
@@ -46,18 +45,18 @@
 
 /* Content section in single attraction card */
 
-.attraction-container .card .content {
+ .attraction-card .content {
   padding: 1rem 0.9rem 0.5rem 0.9rem;
   text-align: center;
 }
 
-.attraction-container .card .content h3 {
+ .attraction-card .content h3 {
   font-size: 1.2rem;
   padding-bottom: 0.5rem;
   color: var(--text-color);
 }
 
-.attraction-container .card .content p {
+ .attraction-card .content p {
   font-size: 1.1rem;
   font-weight: 500;
   color: var(--text-color);
@@ -69,14 +68,14 @@
   .attraction-container {
     gap: 2rem;
   }
-  .attraction-container .card .image {
+   .attraction-card .image {
     height: 50%;
   }
-  .attraction-container .card .content h3 {
+   .attraction-card .content h3 {
     font-size: 1.1rem;
   }
 
-  .attraction-container .card .content p {
+   .attraction-card .content p {
     font-size: 1rem;
   }
 }
@@ -94,7 +93,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .attraction-container .card .image {
+   .attraction-card .image {
     height: 50%;
   }
 }
