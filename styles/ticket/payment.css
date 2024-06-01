@@ -76,7 +76,8 @@
   cursor: pointer;
 }
 
-.submit-button:hover {
+.submit-button:hover,
+.submit-button:focus {
   background: var(--text-color-lighter);
   border: 2px solid var(--main-color);
   color: var(--text-color);

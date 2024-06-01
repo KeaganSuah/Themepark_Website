@@ -96,15 +96,18 @@ article {
   transition: 0.5s ease;
 }
 
-.ticket-card-body:hover {
+.ticket-card-body:hover,
+.ticket-card-body:focus {
   box-shadow: 0 0.5em 1em var(--main-color);
 }
 
-.ticket-card:nth-child(2) .ticket-card-body:hover {
+.ticket-card:nth-child(2) .ticket-card-body:hover,
+.ticket-card:nth-child(2) .ticket-card-body:focus {
   box-shadow: 0 0 10px 2px rgb(203, 83, 83);
 }
 
-.ticket-card:nth-child(3) .ticket-card-body:hover {
+.ticket-card:nth-child(3) .ticket-card-body:hover,
+.ticket-card:nth-child(3) .ticket-card-body:focus {
   box-shadow: 0 0 10px 2px rgb(155, 208, 89);
 }
 
@@ -150,7 +153,8 @@ article {
   background: linear-gradient(331deg, var(--text-color-mid), rgb(155, 208, 89));
 }
 
-.ticket-card button:hover {
+.ticket-card button:hover,
+.ticket-card button:focus {
   background: var(--text-color-light);
   color: var(--text-color);
 }

@@ -27,7 +27,8 @@
   transition: 1s ease;
 }
 
-.event-main-image a:hover img {
+.event-main-image a:hover img,
+.event-main-image a:focus img {
   transform: scale(1.1);
 }
 
@@ -66,7 +67,8 @@
   transition: 0.75s ease;
 }
 
-.event-image a:hover img {
+.event-image a:hover img,
+.event-image a:focus img {
   transform: scale(1.1);
 }
 
