@@ -10,7 +10,7 @@ article {
   box-shadow: 0 0.1px 20px var(--text-color-light);
 }
 
-.ticket {
+#ticket {
   background-image: url("/static/ticket/picture1.jpg");
 }
 
@@ -21,8 +21,6 @@ article {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 5em 2em 0;
   gap: 1rem;
 }
 
@@ -175,20 +173,13 @@ article {
 /************** Responsiveness **************/
 
 @media (max-width: 1076px) {
-  article {
+  #ticket {
     background-position: left bottom;
     padding: 3.5rem 5% 5rem;
+    min-height: 250vh;
   }
-
   .ticket {
-    min-height: 110vh;
-  }
-}
-
-@media (max-width: 742px) {
-  .ticket {
-    min-height: 160vh;
+    margin: 15vh 0 0;
     flex-direction: column;
-    gap: 1.6rem;
   }
 }

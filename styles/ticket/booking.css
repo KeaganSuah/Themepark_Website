@@ -84,10 +84,11 @@
     flex-direction: column;
     gap: 3rem;
     margin: 1rem 4rem;
+    min-height: 130vh;
   }
 
   .booking {
-    min-height: 105vh;
+    min-height: 175vh;
   }
 }
 

@@ -14,7 +14,7 @@
 :root {
   --bg-color: rgb(245, 245, 245);
   --second-bg-color: rgb(248, 248, 248);
-  --content-bg: linear-gradient(321deg, rgb(218, 223, 234), rgb(255, 255, 255));
+  --content-bg: linear-gradient(321deg, rgb(228, 233, 244), rgb(255, 255, 255));
   --main-color: rgb(10, 132, 255);
   --text-color: rgb(23, 23, 23);
   --text-color-mid: rgb(129, 129, 129);
