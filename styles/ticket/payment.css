@@ -91,12 +91,12 @@
   }
 
   #payment {
-    min-height: 200vh;
+    height: auto;
   }
 }
 
 @media (max-width: 600px) {
   #payment form {
-    width: 75vw;
+    width: 80vw;
   }
 }

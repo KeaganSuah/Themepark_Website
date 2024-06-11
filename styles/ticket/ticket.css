@@ -176,7 +176,7 @@ article {
   #ticket {
     background-position: left bottom;
     padding: 3.5rem 5% 5rem;
-    min-height: 250vh;
+    height: auto;
   }
   .ticket {
     margin: 15vh 0 0;

@@ -88,13 +88,14 @@
   }
 
   .booking {
-    min-height: 175vh;
+    height: auto;
   }
 }
 
 @media (max-width: 600px) {
   .booking-container {
-    margin: 1rem 2rem;
+    margin: 1rem 0rem;
+    height: auto;
   }
 
   .booking-form {
