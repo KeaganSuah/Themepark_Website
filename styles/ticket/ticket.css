@@ -14,7 +14,7 @@ article {
   background-image: url("/static/ticket/picture1.jpg");
 }
 
-/* Overall ticket layout */
+/* Overall ticket layout */ 
 .ticket {
   min-height: 100vh;
   display: flex;
