@@ -32,7 +32,7 @@
   transform: scale(1.1);
 }
 
-.event-main-image a .content {
+.event-main-image .content {
   color: var(--text-color-lighter);
   position: absolute;
   z-index: 1;
@@ -40,12 +40,12 @@
   text-shadow: 2px 2px 2px var(--text-color);
 }
 
-.event-main-image a .content h3 {
+.event-main-image .content h3 {
   font-size: 1.7rem;
   font-weight: 600;
 }
 
-.event-main-image a .content h4 {
+.event-main-image .content h4 {
   font-size: 1.3rem;
   font-weight: 400;
 }
@@ -72,7 +72,7 @@
   transform: scale(1.1);
 }
 
-.event-image a .content {
+.event-image .content {
   color: var(--text-color-lighter);
   position: absolute;
   z-index: 1;
@@ -81,12 +81,12 @@
   text-shadow: 2px 2px 2px var(--text-color);
 }
 
-.event-image a .content h3 {
+.event-image .content h3 {
   font-size: 1.35rem;
   font-weight: 600;
 }
 
-.event-image a .content h4 {
+.event-image .content h4 {
   font-size: 1.05rem;
   font-weight: 400;
 }
