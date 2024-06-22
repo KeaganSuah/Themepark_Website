@@ -14,7 +14,7 @@
 #payment form {
   width: 55vw;
   border-radius: 1rem;
-  padding: 3rem;
+  padding: 1.8rem;
   background: var(--content-bg);
   box-shadow: 0 0 10px 0.2px var(--text-color-mid);
 }

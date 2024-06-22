@@ -19,3 +19,15 @@ window.onscroll = () => {
   menuIcon.classList.remove("bx-x");
   navbar.classList.remove("active");
 };
+
+// To increment and decrement the counter
+
+function increment(button) {
+  const input = button.previousElementSibling;
+  input.stepUp();
+}
+
+function decrement(button) {
+  const input = button.nextElementSibling;
+  input.stepDown();
+}

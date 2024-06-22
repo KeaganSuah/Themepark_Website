@@ -40,7 +40,6 @@
     <link rel="stylesheet" href="/styles/ticket/ticket.css" />
     <link rel="stylesheet" href="/styles/ticket/booking.css" />
   </head>
-
   <body>
     <!-- Start Header & Nav -->
     <header class="header">
@@ -197,12 +196,23 @@
               <h2>Ticket Date & Time</h2>
               <div class="booking-form">
                 <p>Number of Days</p>
-                <input
-                  type="number"
-                  placeholder="Enter Number"
-                  min="0"
-                  required
-                />
+                <div class="increment-container">
+                  <button
+                    type="button"
+                    class="decrease"
+                    onclick="decrement(this)"
+                  >
+                    -
+                  </button>
+                  <input type="number" value="1" min="1" required />
+                  <button
+                    type="button"
+                    class="increase"
+                    onclick="increment(this)"
+                  >
+                    +
+                  </button>
+                </div>
               </div>
               <div class="booking-form">
                 <p>Ticket Time</p>
@@ -215,21 +225,43 @@
               <h2>Number of Tickets</h2>
               <div class="booking-form">
                 <p>Ticket for Age 10+</p>
-                <input
-                  type="number"
-                  placeholder="Enter Number"
-                  min="0"
-                  required
-                />
+                <div class="increment-container">
+                  <button
+                    type="button"
+                    class="decrease"
+                    onclick="decrement(this)"
+                  >
+                    -
+                  </button>
+                  <input type="number" value="0" min="0" required />
+                  <button
+                    type="button"
+                    class="increase"
+                    onclick="increment(this)"
+                  >
+                    +
+                  </button>
+                </div>
               </div>
               <div class="booking-form">
                 <p>Ticket for Age 3-9</p>
-                <input
-                  type="number"
-                  placeholder="Enter Number"
-                  min="0"
-                  required
-                />
+                <div class="increment-container">
+                  <button
+                    type="button"
+                    class="decrease"
+                    onclick="decrement(this)"
+                  >
+                    -
+                  </button>
+                  <input type="number" value="0" min="0" required />
+                  <button
+                    type="button"
+                    class="increase"
+                    onclick="increment(this)"
+                  >
+                    +
+                  </button>
+                </div>
               </div>
             </form>
           </div>
@@ -393,5 +425,7 @@
 
     <!-- Global Scripts -->
     <script src="/scripts/global.js"></script>
+    <script src="/scripts/home.js"></script>
+    <!-- Global Scripts -->
   </body>
 </html>
