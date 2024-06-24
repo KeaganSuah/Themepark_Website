@@ -2,36 +2,39 @@
 <html lang="en">
   <head>
     <title>Team79 Theme Park - Home</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Meta Data for Main Page -->
     <meta
       name="keywords"
-      content="Team79, theme park, promotions, events, FAQs, family fun, amusement park">
-    <meta name="author" content="Team79 Theme Park">
+      content="Team79, theme park, promotions, events, FAQs, family fun, amusement park"
+    />
+    <meta name="author" content="Team79 Theme Park" />
     <meta
       name="description"
-      content="Discover the latest promotions, upcoming events, and frequently asked questions at Team79 Theme Park. Plan your visit today!">
+      content="Discover the latest promotions, upcoming events, and frequently asked questions at Team79 Theme Park. Plan your visit today!"
+    />
 
     <!-- Box Icons Import -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
 
     <!-- Web Icon -->
-    <link rel="icon" sizes="512x512" href="static/logo.png">
+    <link rel="icon" sizes="512x512" href="static/logo.png" />
 
     <!-- Global Style -->
-    <link rel="stylesheet" href="/styles/global/global.css">
-    <link rel="stylesheet" href="/styles/global/header.css">
-    <link rel="stylesheet" href="/styles/global/footer.css">
+    <link rel="stylesheet" href="/styles/global/global.css" />
+    <link rel="stylesheet" href="/styles/global/header.css" />
+    <link rel="stylesheet" href="/styles/global/footer.css" />
 
     <!-- Page Style -->
-    <link rel="stylesheet" href="/styles/home/hero.css">
-    <link rel="stylesheet" href="/styles/home/promotion.css">
-    <link rel="stylesheet" href="/styles/home/event.css">
-    <link rel="stylesheet" href="/styles/home/faq.css">
+    <link rel="stylesheet" href="/styles/home/hero.css" />
+    <link rel="stylesheet" href="/styles/home/promotion.css" />
+    <link rel="stylesheet" href="/styles/home/event.css" />
+    <link rel="stylesheet" href="/styles/home/faq.css" />
   </head>
 
   <body>
@@ -39,7 +42,7 @@
     <header class="header">
       <!-- Logo -->
       <a href="/" class="logo">
-        <img src="static/logo.png" alt="Theme park logo">
+        <img src="static/logo.png" alt="Theme park logo" />
       </a>
 
       <!-- Menus icon for small screen devices -->
@@ -60,11 +63,11 @@
       <section id="hero">
         <!-- background Video -->
         <video autoplay loop muted playsinline class="hero-video">
-          <source src="static/home/video.mp4" type="video/mp4">
+          <source src="static/home/video.mp4" type="video/mp4" />
         </video>
 
         <!-- Content header and link, overlapping background video -->
-        <div class="hero-content">
+        <div class="hero-content reload-reveal">
           <h1>Team <span>79</span></h1>
           <a href="/ticket.html">Tickets</a>
         </div>
@@ -73,20 +76,23 @@
 
       <!-- Ticket Price and Promotion -->
       <article class="promotion">
-        <h2>Tickets & Promotion</h2>
+        <h2 class="scroll-reveal-header">Tickets & Promotion</h2>
         <div class="promotion-container">
           <!-- Image Card -->
-          <figure class="promotion-image">
-            <img src="static/home/picture1.jpg" alt="test test test">
+          <figure class="promotion-image scroll-reveal">
+            <img
+              src="static/home/ticket1.jpg"
+              alt="Marry go round at night with beautiful lights"
+            />
           </figure>
 
           <!-- Small Image card -->
-          <figure class="promotion-small-image">
-            <img src="static/home/picture1.jpg" alt="test test test">
+          <figure class="promotion-small-image scroll-reveal">
+            <img src="static/home/ticket2.jpg" alt="Castle themepark at none" />
           </figure>
 
           <!-- Content card -->
-          <div class="promotion-content">
+          <div class="promotion-content scroll-reveal">
             <!-- Title -->
             <h3>Ticket & Reservations</h3>
             <!-- Description -->
@@ -102,8 +108,11 @@
           </div>
 
           <!-- Image Card -->
-          <figure class="promotion-image">
-            <img src="static/home/picture1.jpg" alt="test test test">
+          <figure class="promotion-image scroll-reveal">
+            <img
+              src="static/home/ticket3.jpg"
+              alt="themepark at night with beautiful lights"
+            />
           </figure>
         </div>
       </article>
@@ -111,8 +120,8 @@
 
       <!-- Events Section -->
       <article class="events">
-        <h2>Events</h2>
-        <div class="event-container">
+        <h2 class="scroll-reveal-header">Events</h2>
+        <div class="event-container scroll-reveal">
           <!-- Big Image Card -->
           <figure class="event-main-image">
             <figcaption class="content">
@@ -125,7 +134,8 @@
             <a href="/attraction.html">
               <img
                 src="static/home/event1.jpg"
-                alt="Fireworks display above a theme park at night promoting park events.">
+                alt="Fireworks display above a theme park at night promoting park events."
+              />
             </a>
           </figure>
 
@@ -138,7 +148,8 @@
             <a href="/attraction.html">
               <img
                 src="static/home/event2.jpg"
-                alt="People enjoying an orchestra performance at a theme park">
+                alt="People enjoying an orchestra performance at a theme park"
+              />
             </a>
           </figure>
 
@@ -154,7 +165,8 @@
             <a href="/attraction.html">
               <img
                 src="static/home/event3.jpg"
-                alt="Time turner necklace and books on marauder's map event for the themepark">
+                alt="Time turner necklace and books on marauder's map event for the themepark"
+              />
             </a>
           </figure>
 
@@ -169,7 +181,8 @@
             <a href="/attraction.html">
               <img
                 src="static/home/event4.jpg"
-                alt="Musicians bringing excitement to the theme park.">
+                alt="Musicians bringing excitement to the theme park."
+              />
             </a>
           </figure>
         </div>
@@ -178,26 +191,33 @@
 
       <!-- Reservation and planning guide -->
       <article class="planning">
-        <h2>Reservation & Planning guide</h2>
+        <h2 class="scroll-reveal-header">Reservation & Planning guide</h2>
         <div class="promotion-container">
           <!-- Image Card -->
-          <figure class="promotion-image">
-            <img src="static/home/picture1.jpg" alt="test test test">
+          <figure class="promotion-image scroll-reveal">
+            <img
+              src="static/home/restaurant1.jpg"
+              alt="A nice dinner place with beautiful lights"
+            />
           </figure>
 
           <!-- Small Image card -->
-          <figure class="promotion-small-image">
-            <img src="static/home/picture1.jpg" alt="test test test">
+          <figure class="promotion-small-image scroll-reveal">
+            <img
+              src="static/home/restaurant2.jpg"
+              alt="A rounded dinner place with plants"
+            />
           </figure>
 
           <!-- Content card -->
-          <div class="promotion-content">
+          <div class="promotion-content scroll-reveal">
             <!-- Title -->
-            <h3>Ticket & Reservations</h3>
+            <h3>Restaurant Promotion</h3>
             <!-- Description -->
             <p>
-              Each member in your party is required to have both a valid ticket
-              and park reservation for the same park on the same date.
+              Indulge in a culinary adventure with our exclusive theme park
+              dining promotion! All restaurants within the park are offering
+              special discounts!
             </p>
             <!-- Button links -->
             <div class="links">
@@ -207,8 +227,11 @@
           </div>
 
           <!-- Image Card -->
-          <figure class="promotion-image">
-            <img src="static/home/picture1.jpg" alt="test test test">
+          <figure class="promotion-image scroll-reveal">
+            <img
+              src="static/home/restaurant3.jpg"
+              alt="Yoshinoya restaurant in themepark"
+            />
           </figure>
         </div>
       </article>
@@ -216,21 +239,23 @@
 
       <!-- FAQ section -->
       <article class="faq-section">
-        <h2>FAQs</h2>
-        <details class="faq">
+        <h2 class="scroll-reveal-header">FAQs</h2>
+        <details class="faq scroll-reveal">
           <summary class="question">
             <h3>Tickets</h3>
             <svg
               width="15"
               height="10"
               viewBox="-2.5 -5 75 60"
-              preserveAspectRatio="none">
+              preserveAspectRatio="none"
+            >
               <path
                 d="M0,0 l35,50 l35,-50"
                 fill="none"
                 stroke="black"
                 stroke-linecap="round"
-                stroke-width="5"></path>
+                stroke-width="5"
+              ></path>
             </svg>
           </summary>
           <div class="answer">
@@ -242,20 +267,22 @@
             </p>
           </div>
         </details>
-        <details class="faq">
+        <details class="faq scroll-reveal">
           <summary class="question">
             <h3>Food and Beverage</h3>
             <svg
               width="15"
               height="10"
               viewBox="-2.5 -5 75 60"
-              preserveAspectRatio="none">
+              preserveAspectRatio="none"
+            >
               <path
                 d="M0,0 l35,50 l35,-50"
                 fill="none"
                 stroke="black"
                 stroke-linecap="round"
-                stroke-width="5"></path>
+                stroke-width="5"
+              ></path>
             </svg>
           </summary>
           <div class="answer">
@@ -268,20 +295,22 @@
             </p>
           </div>
         </details>
-        <details class="faq">
+        <details class="faq scroll-reveal">
           <summary class="question">
             <h3>Height and Age Restriction</h3>
             <svg
               width="15"
               height="10"
               viewBox="-2.5 -5 75 60"
-              preserveAspectRatio="none">
+              preserveAspectRatio="none"
+            >
               <path
                 d="M0,0 l35,50 l35,-50"
                 fill="none"
                 stroke="black"
                 stroke-linecap="round"
-                stroke-width="5"></path>
+                stroke-width="5"
+              ></path>
             </svg>
           </summary>
           <div class="answer">
@@ -302,7 +331,7 @@
         <div class="footer-top">
           <!-- Top-Left Portion of Footer to hold Logo -->
           <a href="/" class="logo-footer">
-            <img src="static/logo.png" alt="Theme park logo">
+            <img src="static/logo.png" alt="Theme park logo" />
           </a>
 
           <!-- Top-Right Side to hold other links -->
