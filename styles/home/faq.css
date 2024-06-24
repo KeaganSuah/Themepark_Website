@@ -1,7 +1,9 @@
+/* Main title of FAQ */
 .faq-section h2 {
   text-align: center;
 }
 
+/* FAQ container */
 .faq {
   width: 70vw;
   margin: 2rem auto 0;
@@ -14,6 +16,7 @@
   transform: rotate(180deg);
 }
 
+/* Effect of arrow */
 .faq svg {
   transition: transform 0.5s ease-in;
 }

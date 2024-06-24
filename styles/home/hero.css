@@ -35,6 +35,7 @@
   font-family: "Poetsen One", sans-serif;
 }
 
+/* Hyperlink button to go to ticket page */
 .hero-content a {
   text-decoration: none;
   display: inline-block;
@@ -50,12 +51,14 @@
   transition: 0.5s ease;
 }
 
+/* Hover effect of hyperlink button */
 .hero-content a:hover,
 .hero-content a:focus {
   color: var(--text-color-lighter);
   background: transparent;
 }
 
+/* Hero section video */
 .hero-video {
   position: absolute;
   right: 0;

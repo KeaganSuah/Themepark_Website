@@ -1,8 +1,8 @@
 /************** Booking Section **************/
 
-/* change section background */
+/* change section background, Image taken from Apple */
 .booking {
-  background-image: url("/static/ticket/picture2.jpg");
+  background-image: url("/static/ticket/picture2.png");
 }
 
 /* Booking Container, image on the left and booking form on the right */

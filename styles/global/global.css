@@ -51,3 +51,71 @@ article {
 article:nth-child(odd) {
   background-color: var(--second-bg-color);
 }
+
+/* Start of Animation for revealing contents */
+/* Scroll reveal coming from the left */
+.scroll-reveal-left {
+  animation: appear-left linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 25%;
+}
+
+/* Scroll reveal coming from the right */
+.scroll-reveal-right {
+  animation: appear-right linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 25%;
+}
+
+/* Scroll reveal for header */
+.scroll-reveal-header {
+  animation: appear-right linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+/* General scroll reveal coming from the bottom */
+.scroll-reveal {
+  animation: scrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+}
+
+/* reveal animation when access new page */
+.reload-reveal {
+  animation: scrollReveal 1s;
+}
+
+/* Keyframes for animations */
+@keyframes scrollReveal {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appear-left {
+  from {
+    opacity: 0;
+    transform: translate(-35%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes appear-right {
+  from {
+    opacity: 0;
+    transform: translate(35%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

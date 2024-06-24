@@ -10,11 +10,13 @@ article {
   box-shadow: 0 0.1px 20px var(--text-color-light);
 }
 
+/* Image taken from Apple */
+
 #ticket {
-  background-image: url("/static/ticket/picture1.jpg");
+  background-image: url("/static/ticket/picture1.png");
 }
 
-/* Overall ticket layout */ 
+/* Overall ticket layout */
 .ticket {
   min-height: 100vh;
   display: flex;
@@ -136,9 +138,12 @@ article {
 }
 
 /* Set the colour and size differences of cards */
-
 .ticket-card:nth-child(even) {
-  font-size: 1.08rem;
+  font-size: 0.95rem;
+}
+
+.ticket-card:nth-child(odd) {
+  font-size: 0.9rem;
 }
 
 .ticket-card:nth-child(2) .ticket-card-header,

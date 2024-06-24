@@ -13,13 +13,13 @@ h2 {
 }
 
 /* Set the container for ticket & promotion section and Reservation & Planning guide section */
-
 .promotion-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 
+/* Main Event Image box */
 .promotion-image {
   grid-column: span 2;
   box-shadow: 0 0 5px 0.2px var(--text-color-mid);
@@ -30,10 +30,12 @@ h2 {
   transition: 0.8s ease;
 }
 
+/* Hover effect on image box */
 .promotion-image:hover {
   box-shadow: 0 0 5px 2px var(--main-color);
 }
 
+/* Make image of promotion full width and height */
 .promotion-image img {
   width: 100%;
   height: 100%;
@@ -44,10 +46,12 @@ h2 {
   transition: 0.8s ease;
 }
 
+/* Hover effect on image of promotion */
 .promotion-image:hover img {
   transform: scale(1);
 }
 
+/* Sub event Image box */
 .promotion-small-image {
   grid-column: span 1;
   box-shadow: 0 0 5px 0.2px var(--text-color-mid);
@@ -58,10 +62,12 @@ h2 {
   transition: 0.8s ease;
 }
 
+/* Hover effect on image box */
 .promotion-small-image:hover {
   box-shadow: 0 0 5px 2px var(--main-color);
 }
 
+/* Make image of promotion full width and height */
 .promotion-small-image img {
   width: 100%;
   height: 100%;
@@ -72,10 +78,12 @@ h2 {
   transition: 0.5s ease;
 }
 
+/* Hover effect on image box */
 .promotion-small-image:hover img {
   transform: scale(1);
 }
 
+/* Content Box in promotion section */
 .promotion-content {
   box-shadow: 0 0 5px 0.2px var(--text-color-mid);
   background: var(--content-bg);
@@ -84,6 +92,7 @@ h2 {
   transition: 0.8s ease;
 }
 
+/* Hover effect of promotion box */
 .promotion-content:hover {
   box-shadow: 0 0 5px 1px var(--main-color);
 }
@@ -100,6 +109,7 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+/* Hyperlinks in content container */
 .promotion-content .links {
   text-align: center;
   width: 60%;
@@ -107,6 +117,7 @@ h2 {
   flex-direction: column;
 }
 
+/* Turn hyperlink to button */
 .promotion-content .links a {
   margin: 0.6rem 0;
   text-decoration: none;
@@ -123,6 +134,7 @@ h2 {
   transition: 0.7s ease;
 }
 
+/* Hyperlink hover effect */
 .promotion-content .links a:hover,
 .promotion-content .links a:focus {
   background: transparent;

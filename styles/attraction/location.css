@@ -1,5 +1,6 @@
 /************** Location and Contact **************/
 
+/* Container of both map and contact section */
 .contact-wrap {
   width: 100%;
   height: auto;
@@ -9,6 +10,7 @@
   gap: 2rem;
 }
 
+/* Contact us container */
 .contact-in {
   padding: 40px 30px;
   flex: 50%;
@@ -17,6 +19,7 @@
   border: 2px solid var(--text-color-mid);
 }
 
+/* set the grid for the contact container */
 .contact-in-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -91,6 +94,7 @@
   box-shadow: 0 0 5px 0.2px var(--text-color-mid);
 }
 
+/* Map container */
 .map {
   flex: 50%;
   border-radius: 1rem;

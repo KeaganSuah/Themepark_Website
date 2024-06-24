@@ -14,46 +14,51 @@ h2 {
   gap: 1rem;
 }
 
- .infographic-card {
+/* Card section for infographic */
+.infographic-card {
   width: 100%;
   height: auto;
   cursor: pointer;
 }
 
- .infographic-card:hover .image img {
+/* Hover effect for infographic card */
+.infographic-card:hover .image img {
   transform: translateY(-20%) scale(1.1);
   box-shadow: 0 0 10px 1px var(--main-color);
 }
 
- .infographic-card .image {
+/* Cirlce image in infographic card */
+.infographic-card .image {
   padding: 2rem 0 0.2rem 0;
   text-align: center;
 }
 
- .infographic-card .image img {
+/* Image in inforgraphic card */
+.infographic-card .image img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   transition: 0.5s ease;
 }
 
- .infographic-card .content {
+/* Content of infographic */
+.infographic-card .content {
   padding: 1rem;
   text-align: center;
 }
 
- .infographic-card .content h3 {
+.infographic-card .content h3 {
   font-size: 1.2rem;
   margin: 0.5rem 0;
 }
 
- .infographic-card .content p {
+.infographic-card .content p {
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 1.1rem;
 }
 
- .infographic-card .content a {
+.infographic-card .content a {
   font-size: 1.1rem;
   color: var(--text-colour);
 }
