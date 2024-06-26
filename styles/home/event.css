@@ -83,7 +83,7 @@
   position: absolute;
   z-index: 1;
   padding: 1.5rem 1rem;
-  max-width: 30vw;
+  max-width: 30%;
   text-shadow: 2px 2px 2px var(--text-color);
 }
 
@@ -127,8 +127,8 @@
     border-radius: 0 0 0 1rem;
   }
 
-  .event-main-image a .content,
-  .event-image a .content {
+  .event-image .content,
+  .event-main-image .content {
     max-width: 45vw;
   }
 }
@@ -155,8 +155,8 @@
     border-radius: 0 0 1rem 1rem;
   }
 
-  .event-main-image a .content,
-  .event-image a .content {
+  .event-image .content,
+  .event-main-image .content {
     max-width: 90vw;
   }
 }
