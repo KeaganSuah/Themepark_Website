@@ -2,15 +2,15 @@
 <html lang="en">
   <head>
     <title>Team79 Theme Park - Tickets</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
     <!-- Meta Data for Ticket Page -->
     <meta
       name="keywords"
       content="Team79, theme park tickets, booking, payment, ticket types, buy tickets"
       >
-    <meta name="author" content="Team79 Theme Park">
+    <meta name="author" content="Team79 Theme Park" >
     <meta
       name="description"
       content="Book your tickets for Team79 Theme Park. View ticket types, select the number of tickets, and complete your payment."
@@ -28,24 +28,24 @@
       >
 
     <!-- Web Icon -->
-    <link rel="icon" sizes="512x512" href="static/logo.png">
+    <link rel="icon" sizes="512x512" href="static/logo.png" >
 
     <!-- Global Style -->
-    <link rel="stylesheet" href="/styles/global/global.css">
-    <link rel="stylesheet" href="/styles/global/header.css">
-    <link rel="stylesheet" href="/styles/global/footer.css">
+    <link rel="stylesheet" href="/styles/global/global.css" >
+    <link rel="stylesheet" href="/styles/global/header.css" >
+    <link rel="stylesheet" href="/styles/global/footer.css" >
 
     <!-- Page Style -->
-    <link rel="stylesheet" href="/styles/ticket/payment.css">
-    <link rel="stylesheet" href="/styles/ticket/ticket.css">
-    <link rel="stylesheet" href="/styles/ticket/booking.css">
+    <link rel="stylesheet" href="/styles/ticket/payment.css" >
+    <link rel="stylesheet" href="/styles/ticket/ticket.css" >
+    <link rel="stylesheet" href="/styles/ticket/booking.css" >
   </head>
   <body>
     <!-- Start Header & Nav -->
     <header class="header">
       <!-- Logo -->
       <a href="/" class="logo">
-        <img src="static/logo.png" alt="Theme park logo">
+        <img src="static/logo.png" alt="Theme park logo" >
       </a>
 
       <!-- Menus icon for small screen devices -->
@@ -63,7 +63,7 @@
     <!-- End Header & Nav -->
 
     <main>
-      <!-- Ticket Pricing section -->
+      <!-- Ticket Pricing section. this show the different tickets, which have different prices and benefits each -->
       <article id="ticket">
         <!-- Ticket Containers -->
         <div class="ticket reload-reveal">
@@ -184,7 +184,7 @@
       </article>
       <!-- End Ticket Pricing section -->
 
-      <!-- Booking Section -->
+      <!-- Booking Section, this booking section has a picture on the aside which is just to display a nice picture, the content is on the right which helps user to book the number of tickets they like and the date -->
       <article class="booking">
         <div class="booking-container">
           <!-- Image on left side -->
@@ -208,7 +208,7 @@
                   >
                     -
                   </button>
-                  <input type="number" value="1" min="1" required>
+                  <input type="number" value="1" min="1" required >
                   <button
                     type="button"
                     class="increase"
@@ -220,11 +220,11 @@
               </div>
               <div class="booking-form">
                 <p>Ticket Time</p>
-                <input type="time" required>
+                <input type="time" required >
               </div>
               <div class="booking-form">
                 <p>Ticket Date</p>
-                <input type="date" required>
+                <input type="date" required >
               </div>
               <h2>Number of Tickets</h2>
               <div class="booking-form">
@@ -237,7 +237,7 @@
                   >
                     -
                   </button>
-                  <input type="number" value="0" min="0" required>
+                  <input type="number" value="0" min="0" required >
                   <button
                     type="button"
                     class="increase"
@@ -257,7 +257,7 @@
                   >
                     -
                   </button>
-                  <input type="number" value="0" min="0" required>
+                  <input type="number" value="0" min="0" required >
                   <button
                     type="button"
                     class="increase"
@@ -273,7 +273,7 @@
       </article>
       <!-- End Booking Section -->
 
-      <!-- Payment Section -->
+      <!-- Payment Section, this payment section is for the user to key in their credit card information to pay for the tickets users have selected -->
       <article id="payment">
         <!-- Payment contents, background image in CSS -->
         <form action="/ticket.html" class="scroll-reveal">
@@ -282,28 +282,28 @@
               <h2>Billing Address</h2>
               <div class="payment-form">
                 <span>Full Name: </span>
-                <input type="text" placeholder="Jacob Aiden">
+                <input type="text" placeholder="Jacob Aiden" >
               </div>
               <div class="payment-form">
                 <span>Email: </span>
-                <input type="email" placeholder="example@example.com">
+                <input type="email" placeholder="example@example.com" >
               </div>
               <div class="payment-form">
                 <span>Address: </span>
-                <input type="text" placeholder="Room - Street - Locally">
+                <input type="text" placeholder="Room - Street - Locally" >
               </div>
               <div class="payment-form">
                 <span>City: </span>
-                <input type="text" placeholder="Singapore">
+                <input type="text" placeholder="Singapore" >
               </div>
               <div class="payment-bottom">
                 <div class="payment-form">
                   <span>State: </span>
-                  <input type="text" placeholder="Singapore">
+                  <input type="text" placeholder="Singapore" >
                 </div>
                 <div class="payment-form">
                   <span>Zip Code: </span>
-                  <input type="text" placeholder="530312">
+                  <input type="text" placeholder="530312" >
                 </div>
               </div>
             </div>
@@ -312,28 +312,28 @@
               <h2>Payment</h2>
               <div class="payment-form">
                 <span>Cards Accepted: </span>
-                <img src="/static/ticket/payments.png" alt="Payment options">
+                <img src="/static/ticket/payments.png" alt="Payment options" >
               </div>
               <div class="payment-form">
                 <span>Name On Card: </span>
-                <input type="text" placeholder="Mr. Jacob Aiden">
+                <input type="text" placeholder="Mr. Jacob Aiden" >
               </div>
               <div class="payment-form">
                 <span>Credit Card Number: </span>
-                <input type="number" placeholder="1111 2222 3333 4444">
+                <input type="number" placeholder="1111 2222 3333 4444" >
               </div>
               <div class="payment-form">
                 <span>Exp. Month </span>
-                <input type="text" placeholder="August">
+                <input type="text" placeholder="August" >
               </div>
               <div class="payment-bottom">
                 <div class="payment-form">
                   <span>Exp Year: </span>
-                  <input type="number" placeholder="2025">
+                  <input type="number" placeholder="2025" >
                 </div>
                 <div class="payment-form">
                   <span>CVV: </span>
-                  <input type="number" placeholder="123">
+                  <input type="number" placeholder="123" >
                 </div>
               </div>
             </div>
@@ -344,14 +344,14 @@
       <!-- End Payment Section -->
     </main>
 
-    <!-- Start Footer -->
+    <!-- Start Footer, the footer consist of the logo, other hyperlinks to different parts of the website, social media icons hyperlinks, and terms and condition -->
     <footer>
       <div class="footer-container">
         <!-- Top Portion Of Footer -->
         <div class="footer-top">
           <!-- Top-Left Portion of Footer to hold Logo -->
           <a href="/" class="logo-footer">
-            <img src="static/logo.png" alt="Theme park logo">
+            <img src="static/logo.png" alt="Theme park logo" >
           </a>
 
           <!-- Top-Right Side to hold other links -->
