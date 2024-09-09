@@ -1,5 +1,6 @@
 # Theme Park Website 🎢
 
+
 ## Introduction
 The Theme Park Website project aims to create an engaging and user-friendly online presence for a theme park. The website consists of three main pages:
 - **Main Page**: Includes events, promotions, and FAQ sections.
