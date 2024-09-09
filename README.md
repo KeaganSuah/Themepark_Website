@@ -28,7 +28,7 @@ The project was divided between two main roles:
 - **CSS Animations**: Added engaging effects to enhance user interaction.
 - **HTML Features**: Semantic tags, alt texts, and meta tags contributed to a well-optimized and accessible website.
 
-## Positive Aspects of Your Team Work Experience
+## Positive Aspects of My Team Work Experience
 ### Positive Aspects
 - **Workload Distribution**: Efficiently split tasks based on individual strengths.
 - **Learning from Peers**: Gained new skills in areas like user experience design.
@@ -38,11 +38,10 @@ The project was divided between two main roles:
 - **Teaching**: Reinforced my understanding of web development concepts.
 - **Problem-Solving**: Benefited from diverse perspectives in addressing challenges.
 
-## Effects of Teamwork on the Quality of Your Work
 ### Team Contribution
 - Both team members contributed effectively, with clear task assignments and timely completion of their sections. The result was a well-integrated and high-quality website.
 
-## Tools You and Your Team Used
+## Tools Used
 ### Tools Used
 - **GitHub**: For version control and collaboration.
 - **Visual Studio Code (VSCode)**: For code editing, with live server and formatting extensions.
@@ -58,3 +57,8 @@ The Theme Park Website project provided a valuable learning experience in web de
 
 ## Contact
 For inquiries or feedback, please contact me at [suahkeagan@gmail.com](mailto:suahkeagan@gmail.com)
+
+## Pictures
+![Main Page](path/to/main-page.png)
+![Attractions Page](path/to/attractions-page.png)
+![Ticket Page](path/to/ticket-page.png)
