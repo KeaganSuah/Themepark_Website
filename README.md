@@ -8,6 +8,9 @@ The Theme Park Website project aims to create an engaging and user-friendly onli
 
 The project focuses on delivering a cohesive design across all pages with standardized navigation, hero sections, and footers.
 
+## Screenshots/GIFs
+![Main Page](main_page.png)
+
 ## Roles and Contributions
 ### Role Division
 The project was divided between two main roles:
