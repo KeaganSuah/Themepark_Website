@@ -61,8 +61,3 @@ The Theme Park Website project provided a valuable learning experience in web de
 
 ## Contact
 For inquiries or feedback, please contact me at [suahkeagan@gmail.com](mailto:suahkeagan@gmail.com)
-
-## Pictures
-![Main Page](path/to/main-page.png)
-![Attractions Page](path/to/attractions-page.png)
-![Ticket Page](path/to/ticket-page.png)
