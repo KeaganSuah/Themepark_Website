@@ -56,8 +56,9 @@ The project was divided between two main roles:
 The Theme Park Website project provided a valuable learning experience in web development and teamwork. By dividing roles effectively and leveraging HTML and CSS skills, the team created a cohesive and functional website. Future projects may benefit from incorporating additional tools and refining skills in advanced web development techniques.
 
 ## Technologies
-- HTML
-- CSS
+- HTML/CSS
+- W3C Accessibility
+- VSCode
 
 ## Contact
 For inquiries or feedback, please contact me at [suahkeagan@gmail.com](mailto:suahkeagan@gmail.com)
