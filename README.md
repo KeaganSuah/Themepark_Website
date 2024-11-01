@@ -45,13 +45,6 @@ The project was divided between two main roles:
 ### Team Contribution
 - Both team members contributed effectively, with clear task assignments and timely completion of their sections. The result was a well-integrated and high-quality website.
 
-## Tools Used
-### Tools Used
-- **GitHub**: For version control and collaboration.
-- **Visual Studio Code (VSCode)**: For code editing, with live server and formatting extensions.
-- **W3C Validator**: For checking HTML and CSS files for errors.
-- **Generative AI**: Could have assisted with code improvements and debugging, but the project was completed successfully with less use of it.
-
 ## Conclusion
 The Theme Park Website project provided a valuable learning experience in web development and teamwork. By dividing roles effectively and leveraging HTML and CSS skills, the team created a cohesive and functional website. Future projects may benefit from incorporating additional tools and refining skills in advanced web development techniques.
 
@@ -63,8 +56,8 @@ The Theme Park Website project provided a valuable learning experience in web de
 ## Skills
 - W3C Accessibility Standards
 - Responsive Design (Flexbox, Grid Layout)
-- CSS Animations
-- Web Development Best Practices
+- Computer Animation
+- Web Development
 - Collaborative Project Management
 
 ## Contact
