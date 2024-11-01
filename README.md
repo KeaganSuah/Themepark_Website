@@ -55,13 +55,15 @@ The project was divided between two main roles:
 ## Conclusion
 The Theme Park Website project provided a valuable learning experience in web development and teamwork. By dividing roles effectively and leveraging HTML and CSS skills, the team created a cohesive and functional website. Future projects may benefit from incorporating additional tools and refining skills in advanced web development techniques.
 
-## Technologies and Skills Used
+## Technologies
 - HTML/CSS
+- Visual Studio Code (VSCode)
+- GitHub (Version Control)
+
+## Skills
 - W3C Accessibility Standards
 - Responsive Design (Flexbox, Grid Layout)
 - CSS Animations
-- Visual Studio Code (VSCode)
-- GitHub (Version Control)
 - Web Development Best Practices
 - Collaborative Project Management
 
